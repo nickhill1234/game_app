@@ -1,0 +1,95 @@
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  /* padding-top: 100px;  */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%;
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  position: absolute;
+  background-color: #f19ebc;
+  margin: auto;
+  /* padding: 20px 0 20px 0; */
+  border: 1px solid #888;
+  width: auto;
+  top: 20%;
+  right: 0;
+  left: 0;
+  width: 80%;
+  max-width: 920px;
+
+  margin: auto;
+  overflow: auto;
+  border-radius: 5px;
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 0px;
+  right: 16px;
+  color: #fff;
+  margin-right: 12px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #5761a2;
+  text-decoration: none;
+  cursor: pointer;
+}
+.value {
+  padding-top: 30px;
+  padding-bottom: 80px;
+}
+.button-input {
+  float: left;
+  border-radius: 8px;
+  background-color: #5761a2;
+  color: white;
+  border-color: #5761a2;
+}
+.text-color {
+  color: white;
+  font-weight: 700;
+  float: left;
+}
+/* .back-img{
+  background-image: url('images/subscribe-image.png');
+  background-repeat: no-repeat;
+  background-size: 300px;
+} */
+.message-panel {
+  vertical-align: middle;
+  margin: auto;
+  padding-right: 100px;
+}
+.para {
+  float: left;
+  text-align: justify;
+  text-justify: inter-word;
+  color: white;
+}
+input[type="text"] {
+  padding: 10px;
+  border: 0;
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+}
+@media screen and (min-width: 765px) and (max-width: 1142px) {
+  .text-color {
+    font-size: 20px;
+  }
+  .value {
+    padding-top: 8px;
+  }
+}

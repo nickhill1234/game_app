@@ -13,7 +13,6 @@
     };
 </script>
 
-<h1>Welcome to MathforMoney</h1>
 {#if !web3Props.account}
     <WalletConnect bind:web3Props {contractAddr} {contractAbi}/>
 {:else}

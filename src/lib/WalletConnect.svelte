@@ -13,4 +13,7 @@
         web3Props = {provider, signer, account, chainId, contract};
     }
 </script>
-<button on:click={connectWallet} >Attach Wallet</button>
+<div class="column width-10 offset-1 center">
+    <p>Start answering by clicking this button</p>
+    <button on:click={connectWallet} >Attach Wallet</button>
+</div>
