@@ -16,6 +16,5 @@
 {#if !web3Props.account}
     <WalletConnect bind:web3Props {contractAddr} {contractAbi}/>
 {:else}
-    <AddQuestion bind:web3Props/>
     <AllQuestions bind:web3Props/>
 {/if}

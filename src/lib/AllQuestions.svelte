@@ -12,19 +12,11 @@
     getQuestions();
 </script> 
 
+
 {#if questions}
-    <div class="qwrap">
+    <div class="column width-10 offset-1 center">
         {#each questions as questionAddr}
             <Question {questionAddr} {web3Props}/>
         {/each}
     </div>
 {/if}
-
-<style>
-    .qwrap{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-</style>

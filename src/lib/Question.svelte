@@ -49,7 +49,7 @@
     getQuestion();
 </script>
 
-<div class="{funded} qwrap">
+<div class="{funded} column width-10 offset-1 center">
     <div class="question">
         {question}
     </div>
