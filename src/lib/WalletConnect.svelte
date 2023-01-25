@@ -14,6 +14,6 @@
     }
 </script>
 <div class="column width-10 offset-1 center">
-    <p>Start answering by clicking this button</p>
     <button on:click={connectWallet} >Attach Wallet</button>
+    <p>When submitting your answer, do not leave spaces between the commas and your answer. For example: 1,2,3,4</p>
 </div>
