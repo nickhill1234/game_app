@@ -13,6 +13,7 @@ npm run build<script>
     };
 </script>
 
+<h1>Hi this is a test</h1>
 {#if !web3Props.account}
     <WalletConnect bind:web3Props {contractAddr} {contractAbi}/>
 {:else}
