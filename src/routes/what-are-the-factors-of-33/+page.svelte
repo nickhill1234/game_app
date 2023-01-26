@@ -50,7 +50,7 @@
 		<meta property="twitter:description" content="{question}? {meta_description}">
 		<meta property="twitter:image" content="">
 
-		<link rel="canonical" href="{page_url}" />
+		<link rel="canonical" href="https://earn.mathformoney.app/{page_url}" />
 
 </svelte:head>
 
