@@ -27,7 +27,7 @@
 
 </script>
 
-	<head>
+<svelte:head>
 		<meta content="width=device-width,initial-scale=1.0,maximum-scale=5.0" name="viewport">		
 
 		<!-- Primary Meta Tags -->
@@ -49,9 +49,7 @@
 		<meta property="twitter:title" content="{question} | {app_name}">
 		<meta property="twitter:description" content="{question}? {meta_description}">
 		<meta property="twitter:image" content="">
-		
-	</head>
-	<body data-sveltekit-preload-data="hover" class="shop">
+</svelte:head>
 
 	<!-- Overlay Navigation Menu -->
 	<div class="overlay-navigation-wrapper" data-no-scrollbar data-animation="scale-in">
@@ -272,4 +270,3 @@
 		</div>
 	</div>
 
-</body>

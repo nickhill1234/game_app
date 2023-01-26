@@ -17,8 +17,8 @@
 						<div class="column width-12">
 							<nav class="overlay-navigation nav-block center">
 								<ul>
-									<li><a href="https://earn.mathformoney.app/what-are-the-factors-of-33">Factors of 33</a></li>
-									<li><a href="https://earn.mathformoney.app/what-are-the-factors-of-100">Factors of 100</a></li>
+									<li><a href="/what-are-the-factors-of-33">Factors of 33</a></li>
+									<li><a href="/what-are-the-factors-of-100">Factors of 100</a></li>
 								</ul>
 							</nav>
 						</div>
@@ -50,8 +50,8 @@
 									<li>
 										<!-- Dropdown Login -->
 										<div class="v-align-middle">
-											<a href="https://earn.mathformoney.app/what-are-the-factors-of-33" class="button no-page-fade no-label-on-mobile small no-margin-bottom"><span class="icon-lock left"></span><span>Factors 33</span></a>
-											<a href="https://earn.mathformoney.app/what-are-the-factors-of-100" class="button no-page-fade no-label-on-mobile small no-margin-bottom"><span class="icon-lock left"></span><span>Factors 100</span></a>
+											<a href="/what-are-the-factors-of-33" class="button no-page-fade no-label-on-mobile small no-margin-bottom"><span class="icon-lock left"></span><span>Factors 33</span></a>
+											<a href="/what-are-the-factors-of-100" class="button no-page-fade no-label-on-mobile small no-margin-bottom"><span class="icon-lock left"></span><span>Factors 100</span></a>
 
                                         </div>
 									</li>
