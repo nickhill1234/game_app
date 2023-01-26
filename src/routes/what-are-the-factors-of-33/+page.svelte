@@ -2,7 +2,7 @@
     import WalletConnect from '../../lib/WalletConnect.svelte';
     import AllQuestions from '../../lib/AllQuestions.svelte';
     import contractAbi from '../../contracts/QuizFactory.json';
-    const contractAddr = '0x989C0BFE382B645e79Ab9716C28C6d71e85C6802';
+    const contractAddr = '0xbb497195152Ef610693CE89d7D9287C6334f9237';
 
     let question = 'What are the factors of 33'
     let page_url = 'what-are-the-factors-of-33'
@@ -176,7 +176,9 @@
 						<div class="column width-10 offset-1 center">
 							<p class="lead weight-regular mb-70">Put your math word problem skills to solve this {type_of_question} question and find the answer to: <br> <b>{question}?</b>
 								<br> There is a random reward attached for those who answer the question correctly. 
-								<br>Follow the steps below to connect your wallet first to see if there is a reward. </p>
+								<br>Follow the steps below to connect your wallet first to see if there is a reward. The question is highlighted green if there is a reward available.
+								<br>You will only be able to submit an answer if you've answered correctly.
+							</p>
 						</div>
 						<div class="column width-10 offset-1 center">
                                 <p>Step 1: Download a <a href="https://metamask.io/download/">MetaMask </a> wallet to collect the reward.

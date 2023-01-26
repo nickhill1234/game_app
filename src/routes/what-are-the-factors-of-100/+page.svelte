@@ -177,7 +177,9 @@
 						<div class="column width-10 offset-1 center">
 							<p class="lead weight-regular mb-70">Put your math word problem skills to solve this {type_of_question} question and find the answer to: <br> <b>{question}?</b>
 								<br> There is a random reward attached for those who answer the question correctly. 
-								<br>Follow the steps below to connect your wallet first to see if there is a reward. </p>
+								<br>Follow the steps below to connect your wallet first to see if there is a reward. The question is highlighted green if there is a reward available.
+								<br>You will only be able to submit an answer if you've answered correctly.
+							</p>
 						</div>
 						<div class="column width-10 offset-1 center">
                                 <p>Step 1: Download a <a href="https://metamask.io/download/">MetaMask </a> wallet to collect the reward.
