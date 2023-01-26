@@ -16,7 +16,7 @@
     let math_worksheets_url = 'https://www.mathformoney.app/math-worksheets'
     let resources_url = 'https://www.mathformoney.app/about'
     let social_impact_url = 'https://www.mathformoney.app/social-impact'
-    let contract_url = 'https://www.mathformoney.app/contract'
+    let contract_url = 'https://www.mathformoney.app/contact'
 
     export let web3Props ={
         provider: null,
@@ -49,6 +49,9 @@
 		<meta property="twitter:title" content="{question} | {app_name}">
 		<meta property="twitter:description" content="{question}? {meta_description}">
 		<meta property="twitter:image" content="">
+
+		<link rel="canonical" href="{page_url}" />
+
 </svelte:head>		
 
 
