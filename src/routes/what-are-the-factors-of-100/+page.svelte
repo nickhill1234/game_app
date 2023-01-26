@@ -4,10 +4,10 @@
     import contractAbi from '../../contracts/QuizFactory.json';
     const contractAddr = '0x989C0BFE382B645e79Ab9716C28C6d71e85C6802';
 
-    let question = 'What are the factors of 33'
-    let page_url = 'what-are-the-factors-of-33'
+    let question = 'What are the factors of 100'
+    let page_url = 'what-are-the-factors-of-100'
     let type_of_question = 'factorization'
-    let meta_description = "Solve this problem and earn a money reward. Learn how to find the factors of 33 by creating a list of the factors and using the prime factors method."
+    let meta_description = "Solve this problem and earn a money reward. Learn how to find the factors of 100 by creating a list of the factors and using the prime factors method."
     let page_thumbnail = "#"
 	
 
@@ -208,13 +208,11 @@
 											<div class="accordion-content">
 												<p class="lead mb-30">The best way to think about factoring a number is like taking a puzzle apart and finding the smaller parts that make up the bigger number.
 												<br><br>
-												<b>Start with the smallest factors:</b> Begin by dividing the number by the smallest prime numbers. This way, you can quickly identify which numbers are not factors and move on to the next number.
-												<br><br>
-												<b>Divide and conquer:</b> Keep dividing the number by different numbers to see if they are factors. Once you find a factor, divide the number by that factor again to see if it is a prime factor.
+												<b>Start with the smallest factors and divide:</b> Start by dividing the number by 1 and then move on to the next number, if the number divides evenly into the given number, it is a factor and can be written as a product.
 												<br><br>
 												<b>Factor out common factors:</b>  If you have a sum or a product of numbers, look for common factors that you can factor out.
 												<br><br>
-												<b>Use a factor tree:</b>   A factor tree is a diagram that helps you organize the factors of a number. You start with the number, then divide it by its smallest prime factor, and continue to divide each resulting number until you reach a prime factor.
+												<b>Use a factor tree:</b>   A factor tree is a diagram that helps you organize the factors of a number. You start with the number, then divide it by its smallest prime factor, and continue to divide each resulting number until you reach a prime factor. It is a good idea to check if the factors are prime or not. Prime factors are the building blocks of a number and are unique to that number.
 												<br><br>
 												<b>Practice, practice, practice:</b> Factoring numbers takes practice, so keep trying different numbers to build your skills.
 												</p>
@@ -222,13 +220,13 @@
 										</div>
 										<h3 class="mb-30"><u>Need more help? Try this step by step guide to work through the first factors</u></h3>
 											<div class="accordion-content">
-												<p class="lead mb-30">To factorize the number 33, we are going to find all the numbers that multiply together to make 33. These numbers are called "factors" of 33.
+												<p class="lead mb-30">We are going to go through the first few steps of finding the factors of 100. To factorize the number 100, we first need to understand what it means to "break a number down into smaller parts." Think of it like taking apart a puzzle. This is mean to be a guide but not give you the final answer! The first step in breaking down 100 is to find two numbers that multiply together to make 100. These two numbers are called "factors" of 100.
 													<br><br>
-													<b>Step 1:</b> We can start by dividing 33 by 1 and see if it goes evenly. To divide, we can use the symbol ÷. When we divide 33 by 1, we get 33 with no remainder. So 1 is a factor of 33.
+													<b>Step 1:</b> One way to find the factors of 100 is to start with the number 1 and see if it divides evenly into 100. To divide, we can use the symbol ÷. When we divide 100 by 1, we get 100 with no remainder. So 1 is a factor of 100.
 													<br><br> 
-													<b>Step 2:</b> Now we will move on to the number 2, and see if it divides evenly into 33. When we divide 33 by 2, we get 16 with a remainder of 1. So 2 is not a factor of 33.
+													<b>Step 2:</b> Now we will move on to the number 2 and see if it divides evenly into 100. When we divide 100 by 2, we get 50 with no remainder. So 2 is a factor of 100.
 													<br><br>
-													<b>Step 3:</b> You should be getting the hang of it right now! See if you can complete the rest of the factors of 33. When you feel like you are complete, head up back to the top of the page and submit your answer.
+													<b>Step 3:</b> You should be getting the hang of it right now! See if you can complete the rest of the factors of 100. When you feel like you are complete, head up back to the top of the page and submit your answer.
 												</p>
 											</div>
 							</div>
