@@ -9,7 +9,7 @@
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
 		"format": "prettier --plugin-search-dir . --write .",
 		"postbuild": "yarn generate:sitemap",
-		"generate:sitemap": "svelte-sitemap --domain https://earn.mathformoney.app/; cp public/sitemap.xml static/sitemap.xml"
+		"generate:sitemap": "svelte-sitemap --domain https://earn.mathformoney.app/; cp build/sitemap.xml static/sitemap.xml"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^1.0.0",
