@@ -218,7 +218,7 @@
 												</p>
 											</div>
 										</div>
-										<h2 class="mb-30"><u>Need more help? Try this step by step guide to work through the first factors</u></h2>
+										<h3 class="mb-30"><u>Need more help? Try this step by step guide to work through the first factors</u></h3>
 											<div class="accordion-content">
 												<p class="lead mb-30">To factorize the number 33, we are going to find all the numbers that multiply together to make 33. These numbers are called "factors" of 33.
 													<br><br>

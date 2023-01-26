@@ -217,7 +217,7 @@
 												</p>
 											</div>
 										</div>
-										<h2 class="mb-30"><u>Need more help? Try this step by step guide to work through the first factors</u></h2>
+										<h3 class="mb-30"><u>Need more help? Try this step by step guide to work through the first factors</u></h3>
 											<div class="accordion-content">
 												<p class="lead mb-30">We are going to go through the first few steps of finding the factors of 100. To factorize the number 100, we first need to understand what it means to "break a number down into smaller parts." Think of it like taking apart a puzzle. This is mean to be a guide but not give you the final answer! The first step in breaking down 100 is to find two numbers that multiply together to make 100. These two numbers are called "factors" of 100.
 													<br><br>
