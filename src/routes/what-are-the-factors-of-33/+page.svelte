@@ -201,7 +201,7 @@
 					<div class="row">
 						<div class="column width-12">
 							<div class="mb-50">
-										<h3 class="mb-30"><u>Hints to help you find the factors</u></h3>
+										<h2 class="mb-30"><u>Hints to help you find the factors of 33</u></h2>
 										<div id="accordion-1-panel-1">
 											<div class="accordion-content">
 												<p class="lead mb-30">The best way to think about factoring a number is like taking a puzzle apart and finding the smaller parts that make up the bigger number.
@@ -218,7 +218,7 @@
 												</p>
 											</div>
 										</div>
-										<h3 class="mb-30"><u>Need more help? Try this step by step guide to work through the first factors</u></h3>
+										<h2 class="mb-30"><u>Need more help? Try this step by step guide to work through the first factors</u></h2>
 											<div class="accordion-content">
 												<p class="lead mb-30">To factorize the number 33, we are going to find all the numbers that multiply together to make 33. These numbers are called "factors" of 33.
 													<br><br>
