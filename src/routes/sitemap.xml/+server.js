@@ -2,11 +2,7 @@
 // It's helpful for SEO but does require you to keep it updated to reflect the routes of your website.
 // It is OK to delete this file if you'd rather not bother with it.
 
-
 export const prerender = true
-
-// make sure this matches your post route
-
 /**
  * @type {import('@sveltejs/kit').RequestHandler}
  */
@@ -27,7 +23,20 @@ export async function GET({ setHeaders }) {
       xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
       xmlns:pagemap="http://www.google.com/schemas/sitemap-pagemap/1.0"
       xmlns:xhtml="http://www.w3.org/1999/xhtml"
-    >
+    >      
+    
+    <url>
+      <loc>https://earn.mathformoney.app/what-are-the-factors-of-33</loc>
+      <lastmod>2023-01-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.0</priority>
+    </url>
+    <url>
+      <loc>https://earn.mathformoney.app/what-are-the-factors-of-100</loc>
+      <lastmod>2023-01-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.0</priority>
+    </url>
 
     </urlset>`
 
