@@ -4,12 +4,26 @@
     import contractAbi from '../../contracts/QuizFactory.json';
     const contractAddr = '0x989C0BFE382B645e79Ab9716C28C6d71e85C6802';
 
-    let question = 'What are the factors of 100'
-    let page_url = 'what-are-the-factors-of-100'
-    let type_of_question = 'factorization'
-    let meta_description = "Solve this problem and earn a money reward. Learn how to find the factors of 100 by creating a list of the factors and using the prime factors method."
+    let question = 'What decimal is 1/6'
+    let page_url = 'what-decimal-is-1/6'
+    let type_of_question = 'decimal'
+    let meta_description = "What decimal is 1/6? Learn how to convert 1/6 into a decimal and earn a money reward if you can solve this question correctly."
     let page_thumbnail = "#"
 	
+	let answer_tip = "Limit your answer to four decimal places, for example 0.3333"
+	let hints_intro = "Here are some hints and tips to help convert fractions into decimals:"
+	let hint_1_title = "Divide the numerator by the denominator:"
+	let hint_1 = "To convert a fraction into a decimal, simply divide the numerator by the denominator. This gives you the value of the fraction as a decimal."
+	let hint_2_title = "Write down the decimal places:"
+	let hint_2 = "When dividing the numerator by the denominator, keep writing down the decimal places until you get a repeating pattern or the division terminates (reaches a finite answer)."
+	let hint_3_title = "Use a calculator:"
+	let hint_3 = "If you're having trouble dividing the numerator by the denominator, you can use a calculator to do it for you. Just be sure to keep track of the decimal places, as you may need to round the answer to the appropriate number of decimal places."
+
+
+	let step_intro = "A decimal is a way to represent numbers that are not whole numbers, such as fractions or parts of a whole. Decimals use a decimal point to show the value of the fraction in relation to a whole."
+	let step_1 = "To convert 1/6 into a decimal, we need to divide the numerator (1) by the denominator (6)."
+	let step_2 = "To divide 1 by 6, we start by writing 0.1 as the first digit after the decimal point. This is because 10 divided by 6 equals 1 with a remainder of 4."
+	let step_3 = "Next, we multiply 6 by the first digit after the decimal point (0.1) to see what the next digit will be. 6 x 0.1 = 0.6. Now we write the second digit after the decimal point (0.6) and our decimal is 0.16 so far."
 
     let app_name = 'Math for Money'
     let about_url = 'https://www.mathformoney.app/about'
@@ -180,6 +194,7 @@
 								<br> There is a random reward attached for those who answer the question correctly. 
 								<br>Follow the steps below to connect your wallet first to see if there is a reward. The question is highlighted green if there is a reward available.
 								<br>You will only be able to submit an answer if you've answered correctly.
+								<br> {answer_tip}
 							</p>
 						</div>
 						<div class="column width-10 offset-1 center">
@@ -208,30 +223,32 @@
 					<div class="row">
 						<div class="column width-12">
 							<div class="mb-50">
-										<h2 class="mb-30"><u>Hints to help you find the factors of 100</u></h2>
+										<h2 class="mb-30"><u>Hints to help you solve this {type_of_question} problem</u></h2>
 										<div id="accordion-1-panel-1">
 											<div class="accordion-content">
-												<p class="lead mb-30">The best way to think about factoring a number is like taking a puzzle apart and finding the smaller parts that make up the bigger number.
+												<p class="lead mb-30">{hints_intro}
 												<br><br>
-												<b>Start with the smallest factors and divide:</b> Start by dividing the number by 1 and then move on to the next number, if the number divides evenly into the given number, it is a factor and can be written as a product.
+												<b>{hint_1_title}</b> {hint_1}
 												<br><br>
-												<b>Factor out common factors:</b>  If you have a sum or a product of numbers, look for common factors that you can factor out.
+												<b>{hint_2_title}</b> {hint_2}
 												<br><br>
-												<b>Use a factor tree:</b>   A factor tree is a diagram that helps you organize the factors of a number. You start with the number, then divide it by its smallest prime factor, and continue to divide each resulting number until you reach a prime factor. It is a good idea to check if the factors are prime or not. Prime factors are the building blocks of a number and are unique to that number.
+												<b>{hint_3_title}</b> {hint_3}  
 												<br><br>
-												<b>Practice, practice, practice:</b> Factoring numbers takes practice, so keep trying different numbers to build your skills.
+												<b>Practice, practice, practice:</b> Solving {type_of_question} questions takes practice, so keep trying different questions to build your skills.
 												</p>
 											</div>
 										</div>
-										<h3 class="mb-30"><u>Need more help? Try this step by step guide to work through the first factors</u></h3>
+										<h3 class="mb-30"><u>Need more help? Try this step by step guide to work through this {type_of_question} question.</u></h3>
 											<div class="accordion-content">
-												<p class="lead mb-30">We are going to go through the first few steps of finding the factors of 100. To factorize the number 100, we first need to understand what it means to "break a number down into smaller parts." Think of it like taking apart a puzzle. This is mean to be a guide but not give you the final answer! The first step in breaking down 100 is to find two numbers that multiply together to make 100. These two numbers are called "factors" of 100.
+												<p class="lead mb-30">{step_intro}
 													<br><br>
-													<b>Step 1:</b> One way to find the factors of 100 is to start with the number 1 and see if it divides evenly into 100. To divide, we can use the symbol ÷. When we divide 100 by 1, we get 100 with no remainder. So 1 is a factor of 100.
+													<b>Step 1:</b> {step_1}
 													<br><br> 
-													<b>Step 2:</b> Now we will move on to the number 2 and see if it divides evenly into 100. When we divide 100 by 2, we get 50 with no remainder. So 2 is a factor of 100.
+													<b>Step 2:</b> {step_2}
 													<br><br>
-													<b>Step 3:</b> You should be getting the hang of it right now! See if you can complete the rest of the factors of 100. When you feel like you are complete, head up back to the top of the page and submit your answer.
+													<b>Step 3:</b> {step_3}
+													<br><br>
+													<b>Step 4:</b> You should be getting the hang of solving the problem. Try submit the answer above and see if you are correct!											
 												</p>
 											</div>
 							</div>

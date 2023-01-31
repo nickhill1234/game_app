@@ -23,8 +23,16 @@ export async function GET({ setHeaders }) {
       <changefreq>daily</changefreq>
       <priority>1.0</priority>
     </url>
+
     <url>
       <loc>https://earn.mathformoney.app/what-are-the-factors-of-100</loc>
+      <lastmod>2023-01-28</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.0</priority>
+    </url>
+
+    <url>
+      <loc>https://earn.mathformoney.app/what-decimal-is-1/6</loc>
       <lastmod>2023-01-28</lastmod>
       <changefreq>daily</changefreq>
       <priority>1.0</priority>

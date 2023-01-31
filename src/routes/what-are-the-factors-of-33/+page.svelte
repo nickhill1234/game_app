@@ -16,7 +16,8 @@
     let math_worksheets_url = 'https://www.mathformoney.app/math-worksheets'
     let resources_url = 'https://www.mathformoney.app/about'
     let social_impact_url = 'https://www.mathformoney.app/social-impact'
-    let contract_url = 'https://www.mathformoney.app/contact'
+    let contact_url = 'https://www.mathformoney.app/contact'
+	let year = '2023'
 
     export let web3Props ={
         provider: null,
@@ -84,7 +85,7 @@
 										<a href="{social_impact_url}">Social Impact</a>
 									</li>
 									<li>
-										<a href="{contract_url}">Contact</a>
+										<a href="{contact_url}">Contact</a>
 									</li>
 								</ul>
 							</nav>
@@ -92,7 +93,7 @@
 					</div>
 					<div class="overlay-navigation-footer row full-width center">
 						<div class="column width-12 no-padding">
-							<p class="copyright">&copy; 2023 Math for Money. All Rights Reserved.</p>
+							<p class="copyright">&copy; {year} Math for Money. All Rights Reserved.</p>
 						</div>
 					</div>
 				</div>
@@ -141,7 +142,7 @@
 									<li class="current"><a href="{math_worksheets_url}">Math Worksheets</a></li>
 									<li><a href="{resources_url}">Resources</a></li>
 									<li><a href="{social_impact_url}">Social Impact</a></li>
-									<li><a href="{contract_url}">Contact</a></li>
+									<li><a href="{contact_url}">Contact</a></li>
 								</ul>
 							</nav>
 						</div>
