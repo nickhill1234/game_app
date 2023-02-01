@@ -2,14 +2,28 @@
     import WalletConnect from '../../lib/WalletConnect.svelte';
     import AllQuestions from '../../lib/AllQuestions.svelte';
     import contractAbi from '../../contracts/QuizFactory.json';
-    const contractAddr = '0xbb497195152Ef610693CE89d7D9287C6334f9237';
+    const contractAddr = '0x989C0BFE382B645e79Ab9716C28C6d71e85C6802';
 
-    let question = 'What are the factors of 33'
-    let page_url = 'what-are-the-factors-of-33'
-    let type_of_question = 'factorization'
-    let meta_description = "What are the factors of 33? Solve this problem and earn a money reward. Learn how to find the factors of 33 by creating a list of the factors and using the prime factors method."
+    let question = '5 is what percent of 2'
+    let page_url = '5-is-what-percent-of-2'
+    let type_of_question = 'percent'
+    let meta_description = "5 is what percent of 2? Learn how to calculate 5 as a percent of 2 and earn a money reward if you can solve this question correctly."
     let page_thumbnail = "#"
 	
+	let answer_tip = ""
+	let hints_intro = "Here are some hints and tips to help convert solve this percentage question:"
+	let hint_1_title = "First convert the percent to an equivalent fraction:"
+	let hint_1 = "To convert a percent into a fraction, we need to convert to an equivalent fraction with denominator 100."
+	let hint_2_title = "Convert fraction to a decimal:"
+	let hint_2 = "Convert the fraction to a decimal first, then multiply the answer by 100"
+	let hint_3_title = "Use a calculator:"
+	let hint_3 = "If you're having trouble dividing the numerator by the denominator, you can use a calculator to do it for you. Ideally use a calculate to check your answer as it is better to practice converting fractions to percentages and using a calculator to check your answer."
+
+
+	let step_intro = "A decimal is a way to represent numbers that are not whole numbers, such as fractions or parts of a whole. Decimals use a decimal point to show the value of the fraction in relation to a whole."
+	let step_1 = "First we need to convert our denominator 2 to 100 to represent 100% as a percent."
+	let step_2 = "Next we divide 100 by our denominator (2) to work out the multiplier. 100 divided by 2 is 50 which is our multiplier."
+	let step_3 = "Our last step is then to convert our numerator (5) using the same multipler (50) to get our percentage. Try it and put your answer into the link above!"
 
     let app_name = 'Math for Money'
     let about_url = 'https://www.mathformoney.app/about'
@@ -53,7 +67,8 @@
 
 		<link rel="canonical" href="https://earn.mathformoney.app/{page_url}" />
 
-</svelte:head>
+</svelte:head>		
+
 
 	<!-- Overlay Navigation Menu -->
 	<div class="overlay-navigation-wrapper" data-no-scrollbar data-animation="scale-in">
@@ -179,6 +194,7 @@
 								<br> There is a random reward attached for those who answer the question correctly. 
 								<br>Follow the steps below to connect your wallet first to see if there is a reward. The question is highlighted green if there is a reward available.
 								<br>You will only be able to submit an answer if you've answered correctly.
+								<br> {answer_tip}
 							</p>
 						</div>
 						<div class="column width-10 offset-1 center">
@@ -207,32 +223,32 @@
 					<div class="row">
 						<div class="column width-12">
 							<div class="mb-50">
-										<h2 class="mb-30"><u>Hints to help you find the factors of 33</u></h2>
+										<h2 class="mb-30"><u>Hints to help you solve this {type_of_question} problem</u></h2>
 										<div id="accordion-1-panel-1">
 											<div class="accordion-content">
-												<p class="lead mb-30">The best way to think about factoring a number is like taking a puzzle apart and finding the smaller parts that make up the bigger number.
+												<p class="lead mb-30">{hints_intro}
 												<br><br>
-												<b>Start with the smallest factors:</b> Begin by dividing the number by the smallest prime numbers. This way, you can quickly identify which numbers are not factors and move on to the next number.
+												<b>{hint_1_title}</b> {hint_1}
 												<br><br>
-												<b>Divide and conquer:</b> Keep dividing the number by different numbers to see if they are factors. Once you find a factor, divide the number by that factor again to see if it is a prime factor.
+												<b>{hint_2_title}</b> {hint_2}
 												<br><br>
-												<b>Factor out common factors:</b>  If you have a sum or a product of numbers, look for common factors that you can factor out.
+												<b>{hint_3_title}</b> {hint_3}  
 												<br><br>
-												<b>Use a factor tree:</b>   A factor tree is a diagram that helps you organize the factors of a number. You start with the number, then divide it by its smallest prime factor, and continue to divide each resulting number until you reach a prime factor.
-												<br><br>
-												<b>Practice, practice, practice:</b> Factoring numbers takes practice, so keep trying different numbers to build your skills.
+												<b>Practice, practice, practice:</b> Solving {type_of_question} questions takes practice, so keep trying different questions to build your skills.
 												</p>
 											</div>
 										</div>
-										<h3 class="mb-30"><u>Need more help? Try this step by step guide to work through the first factors</u></h3>
+										<h3 class="mb-30"><u>Need more help? Try this step by step guide to work through this {type_of_question} question.</u></h3>
 											<div class="accordion-content">
-												<p class="lead mb-30">To factorize the number 33, we are going to find all the numbers that multiply together to make 33. These numbers are called "factors" of 33.
+												<p class="lead mb-30">{step_intro}
 													<br><br>
-													<b>Step 1:</b> We can start by dividing 33 by 1 and see if it goes evenly. To divide, we can use the symbol ÷. When we divide 33 by 1, we get 33 with no remainder. So 1 is a factor of 33.
+													<b>Step 1:</b> {step_1}
 													<br><br> 
-													<b>Step 2:</b> Now we will move on to the number 2, and see if it divides evenly into 33. When we divide 33 by 2, we get 16 with a remainder of 1. So 2 is not a factor of 33.
+													<b>Step 2:</b> {step_2}
 													<br><br>
-													<b>Step 3:</b> You should be getting the hang of it right now! See if you can complete the rest of the factors of 33. When you feel like you are complete, head up back to the top of the page and submit your answer.
+													<b>Step 3:</b> {step_3}
+													<br><br>
+													<b>Step 4:</b> You should be getting the hang of solving the problem. Try submit the answer above and see if you are correct!											
 												</p>
 											</div>
 							</div>
@@ -275,4 +291,3 @@
 
 		</div>
 	</div>
-

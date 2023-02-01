@@ -129,8 +129,8 @@
 						<div class="column width-12 nav-bar-inner">
 							<div class="logo">
 								<div class="logo-inner">
-									<a href="index"><img src ="./logo-dark.webp" alt="Math For Money Logo" /></a>
-									<a href="index"><img src ="./logo.webp" alt="Math For Money Logo" /></a>
+									<a href="https://www.mathformoney.app"><img src ="./logo-dark.webp" alt="Math For Money Logo" /></a>
+									<a href="https://www.mathformoney.app"><img src ="./logo.webp" alt="Math For Money Logo" /></a>
 								</div>
 							</div>
 							<nav class="navigation nav-block secondary-navigation nav-right">

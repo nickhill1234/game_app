@@ -5,7 +5,7 @@
     const contractAddr = '0x989C0BFE382B645e79Ab9716C28C6d71e85C6802';
 
     let question = 'What decimal is 1/6'
-    let page_url = 'what-decimal-is-1/6'
+    let page_url = 'what-decimal-is-1:6'
     let type_of_question = 'decimal'
     let meta_description = "What decimal is 1/6? Learn how to convert 1/6 into a decimal and earn a money reward if you can solve this question correctly."
     let page_thumbnail = "#"
@@ -129,8 +129,8 @@
 						<div class="column width-12 nav-bar-inner">
 							<div class="logo">
 								<div class="logo-inner">
-									<a href="index"><img src ="./logo-dark.webp" alt="Math For Money Logo" /></a>
-									<a href="index"><img src ="./logo.webp" alt="Math For Money Logo" /></a>
+									<a href="https://www.mathformoney.app"><img src ="./logo-dark.webp" alt="Math For Money Logo" /></a>
+									<a href="https://www.mathformoney.app"><img src ="./logo.webp" alt="Math For Money Logo" /></a>
 								</div>
 							</div>
 							<nav class="navigation nav-block secondary-navigation nav-right">

@@ -45,6 +45,20 @@ export async function GET({ setHeaders }) {
       <priority>1.0</priority>
     </url>    
 
+    <url>
+    <loc>https://earn.mathformoney.app/5-is-what-percent-of-2</loc>
+    <lastmod>2023-01-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    </url>    
+
+    <url>
+    <loc>https://earn.mathformoney.app/5-is-what-percent-of-20</loc>
+    <lastmod>2023-01-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    </url> 
+
     </urlset>`
 
   return new Response(xml)
