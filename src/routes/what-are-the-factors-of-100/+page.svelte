@@ -7,7 +7,7 @@
     let question = 'What are the factors of 100'
     let page_url = 'what-are-the-factors-of-100'
     let type_of_question = 'factorization'
-    let meta_description = "Solve this problem and earn a money reward. Learn how to find the factors of 100 by creating a list of the factors and using the prime factors method."
+    let meta_description = "What are the factors of 100? Learn how to find the factors of 100 using prime factors. Earn a money reward if you can solve this question correctly!"
     let page_thumbnail = "#"
 	
 
