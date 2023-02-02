@@ -4,17 +4,17 @@
     import contractAbi from '../../contracts/QuizFactory.json';
     const contractAddr = '0x989C0BFE382B645e79Ab9716C28C6d71e85C6802';
 
-    let question = '5 is what percent of 20'
-    let page_url = '5-is-what-percent-of-20'
-    let type_of_question = 'percent'
-    let meta_description = "5 is what percent of 20? Use equivalent fractions to convert 5 to a percent of 20 and earn a money reward if you can solve this question correctly."
+    let question = 'What percentage of 20 is 5'
+    let page_url = 'what-percentage-of-20-is-5'
+    let type_of_question = 'percentage'
+    let meta_description = "What percentage of 20 is 5? Learn how to calculate what percent 20 is of 5 and earn a money reward if you can solve this question correctly."
     let page_thumbnail = "#"
 	
 	let answer_tip = ""
-	let hints_intro = "Here are some hints and tips to help convert this 5 into 20 as a percent:"
-	let hint_1_title = "Use an equivalent fraction to convert the percent:"
+	let hints_intro = "Here are some hints and tips to help convert 5 into 20 as a percent:"
+	let hint_1_title = "Use equivalent fractions by identifying the numerator and denominator."
 	let hint_1 = "To convert a percent into a fraction, we need to convert to an equivalent fraction with denominator 100."
-	let hint_2_title = "Use decimals:"
+	let hint_2_title = "Convert to a percentage by multiplying 100:"
 	let hint_2 = "Convert the fraction to a decimal first, then multiply the answer by 100"
 	let hint_3_title = "Use a calculator:"
 	let hint_3 = "If you're having trouble dividing the numerator by the denominator, you can use a calculator to do it for you. Ideally use a calculate to check your answer as it is better to practice converting fractions to percentages and using a calculator to check your answer."

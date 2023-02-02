@@ -20,10 +20,10 @@
 	let hint_3 = "If you're having trouble dividing the numerator by the denominator, you can use a calculator to do it for you. Ideally use a calculate to check your answer as it is better to practice converting fractions to percentages and using a calculator to check your answer."
 
 
-	let step_intro = "A decimal is a way to represent numbers that are not whole numbers, such as fractions or parts of a whole. Decimals use a decimal point to show the value of the fraction in relation to a whole."
+	let step_intro = "Percentage is a way of expressing a number as a part of 100. To find the percentage of a number, we first need to divide it by the total amount and then multiply by 100."
 	let step_1 = "First we need to convert our denominator 2 to 100 to represent 100% as a percent."
 	let step_2 = "Next we divide 100 by our denominator (2) to work out the multiplier. 100 divided by 2 is 50 which is our multiplier."
-	let step_3 = "Our last step is then to convert our numerator (5) using the same multipler (50) to get our percentage. Try it and put your answer into the link above!"
+	let step_3 = "Our last step is then to convert our numerator (5) using the same multipler (50) to get our percentage."
 
     let app_name = 'Math for Money'
     let about_url = 'https://www.mathformoney.app/about'

@@ -33,28 +33,42 @@ export async function GET({ setHeaders }) {
 
     <url>
       <loc>https://earn.mathformoney.app/what-decimal-is-1:6</loc>
-      <lastmod>2023-01-28</lastmod>
+      <lastmod>2023-02-02</lastmod>
       <changefreq>daily</changefreq>
       <priority>1.0</priority>
     </url>
 
     <url>
       <loc>https://earn.mathformoney.app/what-decimal-is-5:6</loc>
-      <lastmod>2023-01-28</lastmod>
+      <lastmod>2023-02-02</lastmod>
       <changefreq>daily</changefreq>
       <priority>1.0</priority>
     </url>    
 
     <url>
     <loc>https://earn.mathformoney.app/5-is-what-percent-of-2</loc>
-    <lastmod>2023-01-28</lastmod>
+    <lastmod>2023-02-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     </url>    
 
     <url>
     <loc>https://earn.mathformoney.app/5-is-what-percent-of-20</loc>
-    <lastmod>2023-01-28</lastmod>
+    <lastmod>2023-02-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    </url> 
+
+    <url>
+    <loc>https://earn.mathformoney.app/what-percentage-of-8-is-5</loc>
+    <lastmod>2023-02-02</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    </url> 
+
+    <url>
+    <loc>https://earn.mathformoney.app/what-percentage-of-20-is-5</loc>
+    <lastmod>2023-02-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     </url> 
