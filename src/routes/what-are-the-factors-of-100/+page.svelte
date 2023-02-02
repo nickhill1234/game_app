@@ -9,7 +9,22 @@
     let type_of_question = 'factorization'
     let meta_description = "What are the factors of 100? Learn how to find the factors of 100 using prime factors. Earn a money reward if you can solve this question correctly!"
     let page_thumbnail = "#"
-	
+
+	let answer_tip = ""
+	let hints_intro = "Factoring numbers is like taking apart a puzzle to find the smaller parts that make up the bigger number. Here's how you can do it:"
+	let hint_1_title = "Divide the number:"
+	let hint_1 = "Start with the smallest number, which is 1, and see if the bigger number can be divided by it. If it can, write it down as a factor. Then move on to the next number and keep dividing until you can't divide anymore."
+	let hint_2_title = "Look for common factors:"
+	let hint_2 = "f you have a sum or a product of numbers, look for parts that are the same and divide them out. This makes it easier to find the rest of the factors."
+	let hint_3_title = "Use a factor tree: "
+	let hint_3 = "A factor tree is a diagram that helps you organize the factors of a number. Start with the big number and divide it by the smallest prime factor. Then divide each of the smaller numbers until you reach a prime factor. Prime factors are the building blocks of the big number and are unique to it."
+
+
+	let step_intro = "A decimal is a way to represent numbers that are not whole numbers, such as fractions or parts of a whole. Decimals use a decimal point to show the value of the fraction in relation to a whole."
+	let step_1 = "To convert 1/6 into a decimal, we need to divide the numerator (1) by the denominator (6)."
+	let step_2 = "To divide 1 by 6, we start by writing 0.1 as the first digit after the decimal point. This is because 10 divided by 6 equals 1 with a remainder of 4."
+	let step_3 = "Next, we multiply 6 by the first digit after the decimal point (0.1) to see what the next digit will be. 6 x 0.1 = 0.6. Now we write the second digit after the decimal point (0.6) and our decimal is 0.16 so far."
+
 
     let app_name = 'Math for Money'
     let about_url = 'https://www.mathformoney.app/about'
@@ -180,6 +195,7 @@
 								<br> There is a random reward attached for those who answer the question correctly. 
 								<br>Follow the steps below to connect your wallet first to see if there is a reward. The question is highlighted green if there is a reward available.
 								<br>You will only be able to submit an answer if you've answered correctly.
+								<br>{answer_tip}
 							</p>
 						</div>
 						<div class="column width-10 offset-1 center">
@@ -208,22 +224,22 @@
 					<div class="row">
 						<div class="column width-12">
 							<div class="mb-50">
-										<h2 class="mb-30"><u>Hints to help you find the factors of 100</u></h2>
+										<h2 class="mb-30"><u>Hints to help you find solve this {type_of_question} question</u></h2>
 										<div id="accordion-1-panel-1">
 											<div class="accordion-content">
-												<p class="lead mb-30">The best way to think about factoring a number is like taking a puzzle apart and finding the smaller parts that make up the bigger number.
+												<p class="lead mb-30">{hints_intro}
 												<br><br>
-												<b>Start with the smallest factors and divide:</b> Start by dividing the number by 1 and then move on to the next number, if the number divides evenly into the given number, it is a factor and can be written as a product.
+												<b>{hint_1_title}</b> {hint_1}
 												<br><br>
-												<b>Factor out common factors:</b>  If you have a sum or a product of numbers, look for common factors that you can factor out.
+												<b>{hint_2_title}</b> {hint_2}
 												<br><br>
-												<b>Use a factor tree:</b>   A factor tree is a diagram that helps you organize the factors of a number. You start with the number, then divide it by its smallest prime factor, and continue to divide each resulting number until you reach a prime factor. It is a good idea to check if the factors are prime or not. Prime factors are the building blocks of a number and are unique to that number.
+												<b>{hint_3_title}</b> {hint_3}	
 												<br><br>
 												<b>Practice, practice, practice:</b> Factoring numbers takes practice, so keep trying different numbers to build your skills.
 												</p>
 											</div>
 										</div>
-										<h3 class="mb-30"><u>Need more help? Try this step by step guide to work through the first factors</u></h3>
+										<h3 class="mb-30"><u>Need more help? Try this step by step guide</u></h3>
 											<div class="accordion-content">
 												<p class="lead mb-30">We are going to go through the first few steps of finding the factors of 100. To factorize the number 100, we first need to understand what it means to "break a number down into smaller parts." Think of it like taking apart a puzzle. This is mean to be a guide but not give you the final answer! The first step in breaking down 100 is to find two numbers that multiply together to make 100. These two numbers are called "factors" of 100.
 													<br><br>
