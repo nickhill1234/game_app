@@ -20,10 +20,10 @@
 	let hint_3 = "A factor tree is a diagram that helps you organize the factors of a number. Start with the big number and divide it by the smallest prime factor. Then divide each of the smaller numbers until you reach a prime factor. Prime factors are the building blocks of the big number and are unique to it."
 
 
-	let step_intro = "A decimal is a way to represent numbers that are not whole numbers, such as fractions or parts of a whole. Decimals use a decimal point to show the value of the fraction in relation to a whole."
-	let step_1 = "To convert 1/6 into a decimal, we need to divide the numerator (1) by the denominator (6)."
-	let step_2 = "To divide 1 by 6, we start by writing 0.1 as the first digit after the decimal point. This is because 10 divided by 6 equals 1 with a remainder of 4."
-	let step_3 = "Next, we multiply 6 by the first digit after the decimal point (0.1) to see what the next digit will be. 6 x 0.1 = 0.6. Now we write the second digit after the decimal point (0.6) and our decimal is 0.16 so far."
+	let step_intro = ""
+	let step_1 = ""
+	let step_2 = ""
+	let step_3 = ""
 
 
     let app_name = 'Math for Money'

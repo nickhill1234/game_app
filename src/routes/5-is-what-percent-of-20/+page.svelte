@@ -4,26 +4,26 @@
     import contractAbi from '../../contracts/QuizFactory.json';
     const contractAddr = '0x989C0BFE382B645e79Ab9716C28C6d71e85C6802';
 
-    let question = '5 is what percent of 2'
-    let page_url = '5-is-what-percent-of-2'
+    let question = '5 is what percent of 20'
+    let page_url = '5-is-what-percent-of-20'
     let type_of_question = 'percent'
-    let meta_description = "5 is what percent of 2? Learn how to calculate 5 as a percent of 2 and earn a money reward if you can solve this question correctly."
+    let meta_description = "5 is what percent of 20? Use equivalent fractions to convert 5 to a percent of 20 and earn a money reward if you can solve this question correctly."
     let page_thumbnail = "#"
 	
 	let answer_tip = ""
-	let hints_intro = "Here are some hints and tips to help convert solve this percentage question:"
-	let hint_1_title = "First convert the percent to an equivalent fraction:"
-	let hint_1 = "To convert a percent into a fraction, we need to convert to an equivalent fraction with denominator 100."
-	let hint_2_title = "Convert fraction to a decimal:"
-	let hint_2 = "Convert the fraction to a decimal first, then multiply the answer by 100"
+	let hints_intro = "Here are some hints and tips to help convert 5 into 20 as a percent:"
+	let hint_1_title = "Use an equivalent fraction to convert the percent:"
+	let hint_1 = "Find the multiple that converts the denominator into 100 and then multiply the numerator by that same multiple."
+	let hint_2_title = "Use decimals:"
+	let hint_2 = "Alternatively, you could convert the fraction into a decimal first and then multiply that decimal by 100 to get a percent."
 	let hint_3_title = "Use a calculator:"
-	let hint_3 = "If you're having trouble dividing the numerator by the denominator, you can use a calculator to do it for you. Ideally use a calculate to check your answer as it is better to practice converting fractions to percentages and using a calculator to check your answer."
+	let hint_3 = "As a last resort, use a calculator to do the conversion. Ideally you should use a calculator to check your workings as it is better to get the practice of doing the conversions yourself first."
 
 
-	let step_intro = "Percentage is a way of expressing a number as a part of 100. To find the percentage of a number, we first need to divide it by the total amount and then multiply by 100."
-	let step_1 = "First we need to convert our denominator 2 to 100 to represent 100% as a percent."
-	let step_2 = "Next we divide 100 by our denominator (2) to work out the multiplier. 100 divided by 2 is 50 which is our multiplier."
-	let step_3 = "Our last step is then to convert our numerator (5) using the same multipler (50) to get our percentage."
+	let step_intro = "A percentage is a way of representing a number as a part of 100. It is a way of standardizing fractions to make them easier to compare."
+	let step_1 = "The first step is to convert our denominator of 20 to 100 to represent 100% which is in percent form."
+	let step_2 = "Next we need to get our multiplier to convert the numerator. We do this by dividing 100 by our denominator (20). 100 divided by 20 is 5 which is our multiplier."
+	let step_3 = "Lastly, we convert our numerator (5) using the same multipler we just calculated (5) to get our percentage."
 
     let app_name = 'Math for Money'
     let about_url = 'https://www.mathformoney.app/about'

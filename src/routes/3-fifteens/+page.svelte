@@ -4,27 +4,27 @@
     import contractAbi from '../../contracts/QuizFactory.json';
     const contractAddr = '0x989C0BFE382B645e79Ab9716C28C6d71e85C6802';
 
-    let question = '5 is what percent of 2'
-    let page_url = '5-is-what-percent-of-2'
-    let type_of_question = 'percent'
-    let meta_description = "5 is what percent of 2? Learn how to calculate 5 as a percent of 2 and earn a money reward if you can solve this question correctly."
+    let question = '3 fifteens'
+    let page_url = '3-fifteens'
+    let type_of_question = 'multiplication'
+    let meta_description = "3 fifteens can also be written as a multiplication question as 3 x 15. Convert the words fifteens into numbers to answer. Earn a money reward if you can solve this question correctly!"
     let page_thumbnail = "#"
+
+    let answer_tip = ""
+    let hints_intro = ""
+    let hint_1_title = "Convert words to numbers:"
+    let hint_1 = "To make the problem easier, convert fifteen into 15 so that you are working with two numbers."
+    let hint_2_title = "Use visual aids:"
+    let hint_2 = "Visual aids, like drawings or manipulatives, can help you understand and solve the problem. For example, you can draw three blocks and label each one with the number 15."
+    let hint_3_title = "Use mental math:"
+    let hint_3 = "Try to solve the problem mentally, without writing it down as this can help your mental math and speed up the process of solving multiplication problems."
+
+
+    let step_intro = "To solve 3 fifteens, we need to understand what multiplication is and how to multiply numbers. Multiplication is simply a way of adding the same number multiple times."
+    let step_1 = "Convert fifteen into the number 15 to make it easier to solve the question."
+    let step_2 = "You can also think of adding 15 three times"
+    let step_3 = "Now that we have both numbers, we can combine them to solve the problem. We're going to add 15 three times, so we write 3 x 15"
 	
-	let answer_tip = ""
-	let hints_intro = "Here are some hints and tips to help convert solve this percentage question:"
-	let hint_1_title = "First convert the percent to an equivalent fraction:"
-	let hint_1 = "To convert a percent into a fraction, we need to convert to an equivalent fraction with denominator 100."
-	let hint_2_title = "Convert fraction to a decimal:"
-	let hint_2 = "Convert the fraction to a decimal first, then multiply the answer by 100"
-	let hint_3_title = "Use a calculator:"
-	let hint_3 = "If you're having trouble dividing the numerator by the denominator, you can use a calculator to do it for you. Ideally use a calculate to check your answer as it is better to practice converting fractions to percentages and using a calculator to check your answer."
-
-
-	let step_intro = "Percentage is a way of expressing a number as a part of 100. To find the percentage of a number, we first need to divide it by the total amount and then multiply by 100."
-	let step_1 = "First we need to convert our denominator 2 to 100 to represent 100% as a percent."
-	let step_2 = "Next we divide 100 by our denominator (2) to work out the multiplier. 100 divided by 2 is 50 which is our multiplier."
-	let step_3 = "Our last step is then to convert our numerator (5) using the same multipler (50) to get our percentage."
-
     let app_name = 'Math for Money'
     let about_url = 'https://www.mathformoney.app/about'
     let math_worksheets_url = 'https://www.mathformoney.app/math-worksheets'
