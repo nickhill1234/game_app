@@ -151,6 +151,7 @@
 									<h1 class="title-large mb-30">{question}</h1>
 									<p>Click one of the questions below and answer it correctly to unlock the reward! The first person to answer the question correctly, collect the reward! 
 									The questions are all math questions are aim to improve problem solving ability. <br><br>
+									Rewards are released weekly so keep checking each week to see if a new question is funded!<br><br>
 									Make sure you connect your wallet first before you answer the question in order to collect the reward. We recommend connecting with MetaMask. </p>
 									<a href="https://metamask.io/download/" class="button large bkg-orange-light bkg-hover-theme color-theme color-hover-blue-light left mb-20">Download MetaMask</a>
 								</div>
