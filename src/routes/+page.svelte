@@ -147,7 +147,7 @@
 					<div class="row">
 						<div class="column width-10 offset-1 center">
 							<div class="title-container">
-								<div class="title-container-inner color-white">
+								<div class="title-container-inner color-grey-ultralight">
 									<h1 class="title-large mb-30">{question}</h1>
 									<p>Click one of the questions below and answer it correctly to unlock the reward! The first person to answer the question correctly, collect the reward! 
 									The questions are all math questions are aim to improve problem solving ability. <br><br>

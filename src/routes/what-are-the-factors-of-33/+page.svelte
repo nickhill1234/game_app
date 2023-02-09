@@ -160,7 +160,7 @@
 					<div class="row">
 						<div class="column width-12 center">
 							<div class="title-container">
-								<div class="title-container-inner color-white">
+								<div class="title-container-inner color-grey-ultralight">
 									<h1 class="title-large mb-30">
                                         {question}
                                     </h1>
