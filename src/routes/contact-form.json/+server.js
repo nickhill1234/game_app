@@ -8,8 +8,6 @@ export const POST = async ({ request }) => {
   const answer = fd.get('answer')
   const time = fd.get('time')
 
-  const AIRTABLE_BASE_ID = import.meta.env.VITE_AIRTABLE_BASE_ID
-  const AIRTABLE_TOKEN = import.meta.env.VITE_AIRTABLE_TOKEN
   const AIRTABLE_URL = `https://api.airtable.com/v0/${AIRTABLE_BASE_ID}/submissions`
 
   let data = {
