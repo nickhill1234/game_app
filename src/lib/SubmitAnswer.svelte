@@ -44,7 +44,7 @@
       <input
         name="answer"
         aria-label="name"
-        placeholder="Type your answer here"
+        placeholder="Type your answer"
         required
       />
       <label for="time">
