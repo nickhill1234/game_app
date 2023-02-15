@@ -1,8 +1,7 @@
 <script> 
     import WalletConnect from '../../lib/WalletConnect.svelte';
-    import AllQuestions from '../../lib/AllQuestions.svelte';
-    import contractAbi from '../../contracts/QuizFactory.json';
-    const contractAddr = '0x989C0BFE382B645e79Ab9716C28C6d71e85C6802';
+	import SubmitAnswer from '$lib/SubmitAnswer.svelte';
+
 
     let question = '5 is what percent of 20'
     let page_url = '5-is-what-percent-of-20'
@@ -191,9 +190,8 @@
 					<div class="row">
 						<div class="column width-10 offset-1 center">
 							<p class="lead weight-regular mb-70">Put your math word problem skills to solve this {type_of_question} question and find the answer to: <br> <b>{question}?</b>
-								<br> There is a random reward attached for those who answer the question correctly. 
-								<br>Follow the steps below to connect your wallet first to see if there is a reward. The question is highlighted green if there is a reward available.
-								<br>You will only be able to submit an answer if you've answered correctly.
+								<br><br> Stand a chance to win a weekly NFT worth $20 if you answer the question correctly! 
+								<br>Follow us on <a href="https://www.instagram.com/mathformoneyapp/" target=”_blank”>Instagram</a> to see winners each Friday. 
 								<br> {answer_tip}
 							</p>
 						</div>
@@ -204,10 +202,10 @@
 								</p>
 							</div>
 						<div style="display: contents">
-                            {#if !web3Props.account}
-                            <WalletConnect bind:web3Props {contractAddr} {contractAbi}/>
+							{#if !web3Props.account}
+                            	<WalletConnect bind:web3Props/>
                             {:else}
-                            <AllQuestions bind:web3Props/>
+                            	<SubmitAnswer bind:web3Props/>
                             {/if}
                         </div>
 						<div class="column width-12" style="padding-top: 50px;">

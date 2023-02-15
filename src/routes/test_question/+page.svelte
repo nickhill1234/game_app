@@ -175,7 +175,7 @@
 						<div class="column width-10 offset-1 center">
 							<p class="lead weight-regular mb-70">Put your math word problem skills to solve this {type_of_question} question and find the answer to: <br> <b>{question}?</b>
 								<br><br> Stand a chance to win a weekly NFT worth $20 if you answer the question correctly! 
-								<br>Follow us on socials to see winners each Friday. 
+								<br>Follow us on <a href="https://www.instagram.com/mathformoneyapp/" target=”_blank”>Instagram</a> to see winners each Friday. 
 							</p>
 						</div>
 						<div class="column width-10 offset-1 center">
