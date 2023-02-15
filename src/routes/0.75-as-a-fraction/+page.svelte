@@ -1,8 +1,7 @@
 <script> 
     import WalletConnect from '../../lib/WalletConnect.svelte';
-    import AllQuestions from '../../lib/AllQuestions.svelte';
-    import contractAbi from '../../contracts/QuizFactory.json';
-    const contractAddr = '0x989C0BFE382B645e79Ab9716C28C6d71e85C6802';
+	import SubmitAnswer from '$lib/SubmitAnswer.svelte';
+
 
     let question = '0.75 as a fraction'
     let page_url = '0.75-as-a-fraction'
@@ -203,11 +202,11 @@
 								</p>
 							</div>
 						<div style="display: contents">
-                            {#if !web3Props.account}
-                            <WalletConnect bind:web3Props {contractAddr} {contractAbi}/>
-                            {:else}
-                            <AllQuestions bind:web3Props/>
-                            {/if}
+							{#if !web3Props.account}
+							<WalletConnect bind:web3Props/>
+							{:else}
+								<SubmitAnswer bind:web3Props/>
+							{/if}
                         </div>
 						<div class="column width-12" style="padding-top: 50px;">
 							<hr class="mb-70">
