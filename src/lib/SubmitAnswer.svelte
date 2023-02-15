@@ -1,6 +1,6 @@
 <script>
     export let web3Props = {provider: null, signer: null, account: null, chainId: null};
-    import Question from '../routes/test_question/+page.svelte';
+	let time = new Date();
 
     let submissionStatus = ''
     const handleSubmit = async data => {
@@ -38,13 +38,22 @@
         placeholder=""
         value={web3Props.account}
       />
-      <label for="message">
+      <label for="answer">
         <span>Enter your answer in the block below then click submit</span>
       </label>
       <input
-        name="message"
+        name="answer"
         aria-label="name"
         placeholder="Enter answer here"
+        required
+      />
+      <label for="time">
+      </label>
+      <input
+        type="hidden"
+        name="time"
+        aria-label="name"
+        value={time}
         required
       />
       <input type="submit" />
