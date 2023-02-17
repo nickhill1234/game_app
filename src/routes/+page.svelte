@@ -141,7 +141,7 @@
 									<br>Submit your answer then follow us on <a href="https://www.instagram.com/mathformoneyapp/" target=”_blank”>Instagram</a> to see winners which are announced each Friday.
 								</p>
 
-								<a href="https://metamask.io/download/" class="button large bkg-orange-light bkg-hover-theme color-grey-ultralight color-hover-blue-light left mb-20">Download MetaMask To Start</a>
+								<a href="https://metamask.io/download/" target=”_blank” class="button large bkg-orange-light bkg-hover-theme color-grey-ultralight color-hover-blue-light left mb-20">Download MetaMask To Start</a>
 								</div>
 								</div>
 								<div class="grid-item grid-sizer">

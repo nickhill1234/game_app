@@ -47,6 +47,15 @@
         placeholder="Type your answer"
         required
       />
+      <label for="email">
+        <span>(Optional) Enter your email if you want to receive a notification if you win! </span>
+      </label>
+      <input
+        type="email"
+        name="email"
+        aria-label="email"
+        placeholder="example@gmail.com"
+      />
       <label for="time">
       </label>
       <input

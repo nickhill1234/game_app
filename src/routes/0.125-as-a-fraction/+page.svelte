@@ -196,7 +196,7 @@
 							</p>
 						</div>
 						<div class="column width-10 offset-1 center">
-                                <p>Step 1: Download a <a href="https://metamask.io/download/">MetaMask </a> wallet to collect the reward.
+                                <p>Step 1: Download a <a href="https://metamask.io/download/ target=”_blank”">MetaMask </a> wallet to collect the reward.
 									<br>
 									Step 2: Attach your MetaMask wallet using the link below to start answering the question.
 								</p>
