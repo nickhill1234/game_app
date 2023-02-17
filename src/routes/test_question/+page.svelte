@@ -1,5 +1,5 @@
 <script> 
-    import WalletConnect from '$lib/WalletConnect_new.svelte';
+    import WalletConnect from '$lib/WalletConnect.svelte';
 	import SubmitAnswer from '$lib/SubmitAnswer.svelte';
 
     let question = 'What are the factors of 33'
