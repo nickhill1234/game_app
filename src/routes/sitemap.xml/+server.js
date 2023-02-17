@@ -18,84 +18,84 @@ export async function GET({ setHeaders }) {
     >      
     
     <url>
-      <loc>https://earn.mathformoney.app/what-are-the-factors-of-33</loc>
+      <loc>https://www.moneymathgames.com/.app/what-are-the-factors-of-33</loc>
       <lastmod>2023-01-28</lastmod>
       <changefreq>daily</changefreq>
       <priority>1.0</priority>
     </url>
 
     <url>
-      <loc>https://earn.mathformoney.app/what-are-the-factors-of-100</loc>
+      <loc>https://www.moneymathgames.app/what-are-the-factors-of-100</loc>
       <lastmod>2023-01-28</lastmod>
       <changefreq>daily</changefreq>
       <priority>1.0</priority>
     </url>
 
     <url>
-      <loc>https://earn.mathformoney.app/what-decimal-is-1:6</loc>
+      <loc>https://www.moneymathgames.app/what-decimal-is-1:6</loc>
       <lastmod>2023-02-02</lastmod>
       <changefreq>daily</changefreq>
       <priority>1.0</priority>
     </url>
 
     <url>
-      <loc>https://earn.mathformoney.app/what-decimal-is-5:6</loc>
+      <loc>https://www.moneymathgames.app/what-decimal-is-5:6</loc>
       <lastmod>2023-02-02</lastmod>
       <changefreq>daily</changefreq>
       <priority>1.0</priority>
     </url>    
 
     <url>
-    <loc>https://earn.mathformoney.app/5-is-what-percent-of-2</loc>
+    <loc>https://www.moneymathgames.app/5-is-what-percent-of-2</loc>
     <lastmod>2023-02-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     </url>    
 
     <url>
-    <loc>https://earn.mathformoney.app/5-is-what-percent-of-20</loc>
+    <loc>https://www.moneymathgames.app/5-is-what-percent-of-20</loc>
     <lastmod>2023-02-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     </url> 
 
     <url>
-    <loc>https://earn.mathformoney.app/what-percentage-of-8-is-5</loc>
+    <loc>https://www.moneymathgames.app/what-percentage-of-8-is-5</loc>
     <lastmod>2023-02-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     </url> 
 
     <url>
-    <loc>https://earn.mathformoney.app/what-percentage-of-20-is-5</loc>
+    <loc>https://www.moneymathgames.app/what-percentage-of-20-is-5</loc>
     <lastmod>2023-02-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     </url> 
 
     <url>
-    <loc>https://earn.mathformoney.app/3-fifteens</loc>
+    <loc>https://www.moneymathgames.app/3-fifteens</loc>
     <lastmod>2023-02-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     </url> 
 
     <url>
-    <loc>https://earn.mathformoney.app/5-1:2-as-a-decimal</loc>
+    <loc>https://www.moneymathgames.app/5-1:2-as-a-decimal</loc>
     <lastmod>2023-02-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     </url> 
 
     <url>
-    <loc>https://earn.mathformoney.app/0.75-as-a-fraction</loc>
+    <loc>https://www.moneymathgames.app/0.75-as-a-fraction</loc>
     <lastmod>2023-02-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     </url> 
 
     <url>
-    <loc>https://earn.mathformoney.app/0.125-as-a-fraction</loc>
+    <loc>https://www.moneymathgames.app/0.125-as-a-fraction</loc>
     <lastmod>2023-02-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
