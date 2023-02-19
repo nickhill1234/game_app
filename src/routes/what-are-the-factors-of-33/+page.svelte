@@ -176,21 +176,13 @@
 						<div class="column width-10 offset-1 center">
 							<p class="lead weight-regular mb-70">Put your math word problem skills to solve this {type_of_question} question and find the answer to: <br> <b>{question}?</b>
 								<br><br> Stand a chance to win a weekly NFT worth $20 if you answer the question correctly! 
-								<br>Follow us on <a href="https://www.instagram.com/mathformoneyapp/" target=”_blank”>Instagram</a> to see winners each Friday. 
+								<br>Follow us on <a href="https://www.instagram.com/mathformoneyapp/" target=”_blank”>Instagram</a> to see winners each Friday.
+								<br><br>
+								You need to download a <b><a href="https://metamask.io/download/" target=”_blank”>MetaMask Wallet</b>  before you can submit your answer. 
 							</p>
 						</div>
-						<div class="column width-10 offset-1 center">
-                                <p>Step 1: Download a <a href="https://metamask.io/download/" target=”_blank”>MetaMask </a> wallet to collect the reward.
-									<br>
-									Step 2: Attach your MetaMask wallet using the link below to start answering the question.
-								</p>
-							</div>
 						<div style="display: contents">
-							{#if !web3Props.account}
-                            	<WalletConnect bind:web3Props/>
-                            {:else}
-                            	<SubmitAnswer bind:web3Props/>
-                            {/if}
+                            	<SubmitAnswer/>
                         </div>
 						<div class="column width-12" style="padding-top: 50px;">
 							<hr class="mb-70">
