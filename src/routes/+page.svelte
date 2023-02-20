@@ -17,7 +17,7 @@
 		<meta name="title" content="{question} | {app_name}">
 		<meta name="description" content="{meta_description}">
 
-		<link rel="canonical" href="https://www.moneymathgames.com.app/{page_url}" />
+		<link rel="canonical" href="https://moneymathgames.com" />
 
 </svelte:head>	
 

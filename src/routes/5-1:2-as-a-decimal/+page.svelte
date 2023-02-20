@@ -32,13 +32,6 @@
     let contact_url = 'https://www.mathformoney.app/contact'
 	let year = '2023'
 
-    export let web3Props ={
-        provider: null,
-        signer: null,
-        account: null,
-        chainId: null,
-    };
-
 </script>
 
 <svelte:head>
@@ -64,7 +57,7 @@
 		<meta property="twitter:description" content="{question}? {meta_description}">
 		<meta property="twitter:image" content="">
 
-		<link rel="canonical" href="https://earn.mathformoney.app/{page_url}" />
+		<link rel="canonical" href="https://moneymathgames.com/{page_url}" />
 
 </svelte:head>		
 
