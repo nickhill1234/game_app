@@ -44,7 +44,8 @@ Copyright: ThemeMountain
 */
 
 body{
-	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-family:  "soleil", sans-serif;
+	font-style: normal;
 	letter-spacing: 0;
 	font-weight: 400;
 	font-size: 1.4rem;
@@ -95,18 +96,33 @@ h6 a:hover{
 }
 h1{
 	font-size: 4.381rem;
+	font-family: "ruddy", sans-serif;
+	font-weight: 900;
+	font-style: normal;
 }
 h2{
-	font-size: 3.294rem;
+	font-size: 3.28rem;
+	font-family: "ruddy", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 h3{
 	font-size: 2.476rem;
+	font-family: "soleil", sans-serif;
+	font-weight: 700;
+	font-style: normal;
 }
 h4{
 	font-size: 1.862rem;
+	font-family: "soleil", sans-serif;
+	font-weight: 500;
+	font-style: normal;
 }
 h5{
 	font-size: 1.4rem;
+	font-family: "soleil", sans-serif;
+	font-weight: 500;
+	font-style: normal;
 }
 h6{
 	font-size: 1.053rem;
@@ -138,6 +154,9 @@ h6{
 .title-xlarge{
 	font-size: 7.749rem;
 	line-height: 1.2;
+	font-family: ruddy, sans-serif;
+	font-weight: 900;
+	font-style: normal;
 }
 .title-large{
 	font-size: 5.826rem;
@@ -595,12 +614,12 @@ body,
 
 /* Initial Logo Width */
 .header .logo{
-	width: 3.5rem;
+	width: 10rem;
 }
 
 /* Compacted Header Logo Width */
 .header-compact .logo{
-	width: 3.5rem;
+	width: 10rem;
 }
 
 /* Initial Logo Styling */

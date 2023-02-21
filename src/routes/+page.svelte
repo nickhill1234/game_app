@@ -1,6 +1,6 @@
 <script> 
 
-	let question = 'Money Math Games'
+	let page_title = 'Money Math Games'
     let page_url = 'index'
     let meta_description = "Cool money math games that you can play to earn money! Play math games to win weekly prizes."
 
@@ -14,7 +14,7 @@
 
 		<!-- Primary Meta Tags -->
 		<title>Earn Money With Cool Money Math Games! | {app_name}</title>
-		<meta name="title" content="{question} | {app_name}">
+		<meta name="title" content="{page_title} | {app_name}">
 		<meta name="description" content="{meta_description}">
 
 		<link rel="canonical" href="https://www.moneymathgames.com" />
@@ -62,8 +62,8 @@
 						<div class="column width-12 nav-bar-inner">
 							<div class="logo">
 								<div class="logo-inner">
-									<a href="index.html"><img src="logo-dark.webp" alt="Pocketjam Logo" /></a>
-									<a href="index.html"><img src="logo.webp" alt="Pocketjam logo Logo" /></a>
+									<a href="https://www.moneymathgames.com"><img src ="../logo-dark.webp" alt="Money Math Games Logo" /></a>
+									<a href="https://www.moneymathgames.com"><img src ="../logo.webp" alt="Money Math Games Logo" /></a>
 								</div>
 							</div>
 							<nav class="navigation nav-block secondary-navigation nav-right">
@@ -82,12 +82,12 @@
 			<div class="content clearfix">
 
 				<!-- Intro Title -->
-				<div class="section-block" style="background-image:url(./slide-1-fs.webp)">
+				<div class="section-block" style="background-image:url(./rectangle.webp)">
 					<div class="row flex">
 						<div class="column width-10 offset-1 center">
 							<div class="title-container">
 								<div class="title-container-inner color-grey-ultralight">
-									<h1 class="title-xlarge mb-150">{question}</h1>
+									<h1 class="title-xlarge mb-150">{page_title}</h1>
 									<a href="#treasure_hunt" class="button large bkg-orange-light bkg-hover-theme color-grey-ultralight color-hover-blue-light left mb-20">Click here to play</a>
 								</div>
 							</div>
@@ -148,8 +148,8 @@
 									<article class="post">
 										<div class="post-media">
 											<div class="thumbnail img-scale-in">
-												<a class="overlay-link" href="what-are-the-factors-of-100">
-													<img src="grade-1.svg" alt=""/>
+												<a class="overlay-link" href="treasure-hunt/what-are-the-factors-of-100">
+													<img src="1.webp" alt=""/>
 													<span class="overlay-info">
 														<span>
 															<span>
@@ -161,8 +161,8 @@
 											</div>
 										</div>
 										<div class="post-content with-background">
-											<h2 class="post-title"><a href="what-are-the-factors-of-100">What are the factors of 100</a></h2>
-											<p>This is a factorisation question that tests your ability to break down a number into its factor pairs in order to solve the question. This question is great for kids 9 years and older.</p>
+											<h2 class="post-title"><a href="treasure-hunt/what-are-the-factors-of-100">What are the factors of 100</a></h2>
+											<p>This is a factorisation question that tests your ability to break down a number into its factor pairs. </p>
 										</div>
 									</article>
 								</div>
@@ -171,8 +171,8 @@
 									<article class="post">
 										<div class="post-media">
 											<div class="thumbnail img-scale-in" >
-												<a class="overlay-link" href="what-are-the-factors-of-33">
-													<img src="grade-2.svg" alt=""/>
+												<a class="overlay-link" href="treasure-hunt/what-are-the-factors-of-33">
+													<img src="2.webp" alt=""/>
 													<span class="overlay-info">
 														<span>
 															<span>
@@ -184,8 +184,8 @@
 											</div>
 										</div>
 										<div class="post-content with-background">
-											<h2 class="post-title"><a href="what-are-the-factors-of-33">What are the factors of 33</a></h2>
-											<p>This is a factorisation question that tests your ability to break down a number into its factor pairs in order to solve the question. </p>
+											<h2 class="post-title"><a href="treasure-hunt/what-are-the-factors-of-33">What are the factors of 33</a></h2>
+											<p>This is a factorisation question that tests your ability to break down a number into its factor pairs. </p>
 										</div>
 									</article>
 								</div>
@@ -194,8 +194,8 @@
 									<article class="post">
 										<div class="post-media">
 											<div class="thumbnail img-scale-in" >
-												<a class="overlay-link" href="0.75-as-a-fraction">
-													<img src="grade-3.svg" alt=""/>
+												<a class="overlay-link" href="treasure-hunt/0.75-as-a-fraction">
+													<img src="3.webp" alt=""/>
 													<span class="overlay-info">
 														<span>
 															<span>
@@ -207,7 +207,7 @@
 											</div>
 										</div>
 										<div class="post-content with-background">
-											<h2 class="post-title"><a href="0.75-as-a-fraction">0.75 as a fraction</a></h2>
+											<h2 class="post-title"><a href="treasure-hunt/0.75-as-a-fraction">0.75 as a fraction</a></h2>
 											<p>This is a fraction question that tests your ability to break down a number into its factor pairs in order to solve the question. </p>
 										</div>
 									</article>
@@ -217,8 +217,8 @@
 									<article class="post">
 										<div class="post-media">
 											<div class="thumbnail img-scale-in" >
-												<a class="overlay-link" href="0.125-as-a-fraction">
-													<img src="grade-4.svg" alt=""/>
+												<a class="overlay-link" href="treasure-hunt/0.125-as-a-fraction">
+													<img src="4.webp" alt=""/>
 													<span class="overlay-info">
 														<span>
 															<span>
@@ -230,7 +230,7 @@
 											</div>
 										</div>
 										<div class="post-content with-background">
-											<h2 class="post-title"><a href="0.125-as-a-fraction">0.125 as a fraction</a></h2>
+											<h2 class="post-title"><a href="treasure-hunt/0.125-as-a-fraction">0.125 as a fraction</a></h2>
 											<p>This is a fraction question that tests your ability to break down a number into its factor pairs in order to solve the question. </p>
 										</div>
 									</article>
@@ -240,8 +240,8 @@
 									<article class="post">
 										<div class="post-media">
 											<div class="thumbnail img-scale-in" >
-												<a class="overlay-link" href="3-fifteens">
-													<img src="grade-5.svg" alt=""/>
+												<a class="overlay-link" href="treasure-hunt/3-fifteens">
+													<img src="2.webp" alt=""/>
 													<span class="overlay-info">
 														<span>
 															<span>
@@ -253,7 +253,7 @@
 											</div>
 										</div>
 										<div class="post-content with-background">
-											<h2 class="post-title"><a href="3-fifteens">3 fifteens</a></h2>
+											<h2 class="post-title"><a href="treasure-hunt/3-fifteens">3 fifteens</a></h2>
 											<p>This is a multilpication question that tests your ability to break down a number into its factor pairs in order to solve the question. </p>
 										</div>
 									</article>
@@ -263,8 +263,8 @@
 									<article class="post">
 										<div class="post-media">
 											<div class="thumbnail img-scale-in" >
-												<a class="overlay-link" href="5-1:2-as-a-decimal">
-													<img src="grade-6.svg" alt=""/>
+												<a class="overlay-link" href="treasure-hunt/5-1:2-as-a-decimal">
+													<img src="3.webp" alt=""/>
 													<span class="overlay-info">
 														<span>
 															<span>
@@ -276,7 +276,7 @@
 											</div>
 										</div>
 										<div class="post-content with-background">
-											<h2 class="post-title"><a href="5-1:2-as-a-decimal">5 1/2 as a decimal</a></h2>
+											<h2 class="post-title"><a href="treasure-hunt/5-1:2-as-a-decimal">5 1/2 as a decimal</a></h2>
 											<p>This is a decimal question that tests your ability to break down a number into its factor pairs in order to solve the question. </p>
 										</div>
 									</article>
@@ -286,8 +286,8 @@
 									<article class="post">
 										<div class="post-media">
 											<div class="thumbnail img-scale-in" >
-												<a class="overlay-link" href="5-is-what-percent-of-2">
-													<img src="grade-1.svg" alt=""/>
+												<a class="overlay-link" href="treasure-hunt/5-is-what-percent-of-2">
+													<img src="1.webp" alt=""/>
 													<span class="overlay-info">
 														<span>
 															<span>
@@ -299,7 +299,7 @@
 											</div>
 										</div>
 										<div class="post-content with-background">
-											<h2 class="post-title"><a href="5-is-what-percent-of-2">5 is what percent of 2</a></h2>
+											<h2 class="post-title"><a href="treasure-hunt/5-is-what-percent-of-2">5 is what percent of 2</a></h2>
 											<p>This is a percent question that tests your ability to break down a number into its factor pairs in order to solve the question. </p>
 										</div>
 									</article>
@@ -309,8 +309,8 @@
 									<article class="post">
 										<div class="post-media">
 											<div class="thumbnail img-scale-in" >
-												<a class="overlay-link" href="5-is-what-percent-of-20">
-													<img src="grade-2.svg" alt=""/>
+												<a class="overlay-link" href="treasure-hunt/5-is-what-percent-of-20">
+													<img src="2.webp" alt=""/>
 													<span class="overlay-info">
 														<span>
 															<span>
@@ -322,7 +322,7 @@
 											</div>
 										</div>
 										<div class="post-content with-background">
-											<h2 class="post-title"><a href="5-is-what-percent-of-20">5 is what percent of 20</a></h2>
+											<h2 class="post-title"><a href="treasure-hunt/5-is-what-percent-of-20">5 is what percent of 20</a></h2>
 											<p>This is a percent question that tests your ability to break down a number into its factor pairs in order to solve the question. </p>
 										</div>
 									</article>
@@ -332,8 +332,8 @@
 									<article class="post">
 										<div class="post-media">
 											<div class="thumbnail img-scale-in" >
-												<a class="overlay-link" href="what-decimal-is-1:6">
-													<img src="grade-3.svg" alt=""/>
+												<a class="overlay-link" href="treasure-hunt/what-decimal-is-1:6">
+													<img src="3.webp" alt=""/>
 													<span class="overlay-info">
 														<span>
 															<span>
@@ -345,7 +345,7 @@
 											</div>
 										</div>
 										<div class="post-content with-background">
-											<h2 class="post-title"><a href="what-decimal-is-1:6">What decimal is 1/6</a></h2>
+											<h2 class="post-title"><a href="treasure-hunt/what-decimal-is-1:6">What decimal is 1/6</a></h2>
 											<p>This is a decimal question that tests your ability to break down a number into its factor pairs in order to solve the question. </p>
 										</div>
 									</article>
@@ -355,8 +355,8 @@
 									<article class="post">
 										<div class="post-media">
 											<div class="thumbnail img-scale-in" >
-												<a class="overlay-link" href="what-decimal-is-5:6">
-													<img src="grade-4.svg" alt=""/>
+												<a class="overlay-link" href="treasure-hunt/what-decimal-is-5:6">
+													<img src="1.webp" alt=""/>
 													<span class="overlay-info">
 														<span>
 															<span>
@@ -368,7 +368,7 @@
 											</div>
 										</div>
 										<div class="post-content with-background">
-											<h2 class="post-title"><a href="what-decimal-is-5:6">What decimal is 5/6</a></h2>
+											<h2 class="post-title"><a href="treasure-hunt/what-decimal-is-5:6">What decimal is 5/6</a></h2>
 											<p>This is a decimal question that tests your ability to break down a number into its factor pairs in order to solve the question. </p>
 										</div>
 									</article>
@@ -378,8 +378,8 @@
 									<article class="post">
 										<div class="post-media">
 											<div class="thumbnail img-scale-in" >
-												<a class="overlay-link" href="what-percentage-of-8-is-5">
-													<img src="grade-5.svg" alt=""/>
+												<a class="overlay-link" href="treasure-hunt/what-percentage-of-8-is-5">
+													<img src="2.webp" alt=""/>
 													<span class="overlay-info">
 														<span>
 															<span>
@@ -391,7 +391,7 @@
 											</div>
 										</div>
 										<div class="post-content with-background">
-											<h2 class="post-title"><a href="what-percentage-of-8-is-5">What percentage of 8 is 5</a></h2>
+											<h2 class="post-title"><a href="treasure-hunt/what-percentage-of-8-is-5">What percentage of 8 is 5</a></h2>
 											<p>This is a percentage question that tests your ability to convert whole numbers into percentages. </p>
 										</div>
 									</article>
@@ -401,8 +401,8 @@
 									<article class="post">
 										<div class="post-media">
 											<div class="thumbnail img-scale-in" >
-												<a class="overlay-link" href="what-percentage-of-20-is-5">
-													<img src="grade-6.svg" alt=""/>
+												<a class="overlay-link" href="treasure-hunt/what-percentage-of-20-is-5">
+													<img src="4.webp" alt=""/>
 													<span class="overlay-info">
 														<span>
 															<span>
@@ -414,7 +414,7 @@
 											</div>
 										</div>
 										<div class="post-content with-background">
-											<h2 class="post-title"><a href="what-percentage-of-8-is-5">What percentage of 20 is 5</a></h2>
+											<h2 class="post-title"><a href="treasure-hunt/what-percentage-of-8-is-5">What percentage of 20 is 5</a></h2>
 											<p>This is a percentage question that tests your ability to convert whole numbers into percentages. </p>
 										</div>
 									</article>
@@ -428,9 +428,9 @@
 
 			</div>
 			<!-- Content End -->
-
+			
 			<!-- Footer -->
-				<footer id="footer" class="footer-light" style ="background-image: url(./footer.webp)">
+				<footer id="footer" class="footer-light" style ="background-image:url(./rectangle.webp)">
 					<div class="footer-top">
 					  <div class="row flex">
 					    <div class="column width-6 offset-3 center">
