@@ -15,7 +15,7 @@
 		<meta name="title" content="{data.question} | {app_name}">
 		<meta name="description" content="{data.question}? {data.meta_description}">
 
-		<link rel="canonical" href="https://www.moneymathgames.com/{data.slug}" />
+		<link rel="canonical" href="https://www.moneymathgames.com/treasure-hunt/{data.slug}" />
 
 </svelte:head>		
 

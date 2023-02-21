@@ -1,4 +1,7 @@
-<script> 
+<script>
+	import Footer from "../lib/Footer.svelte";
+
+ 
 
 	let page_title = 'Money Math Games'
     let page_url = 'index'
@@ -429,22 +432,7 @@
 			</div>
 			<!-- Content End -->
 			
-			<!-- Footer -->
-				<footer id="footer" class="footer-light" style ="background-image:url(./rectangle.webp)">
-					<div class="footer-top">
-					  <div class="row flex">
-					    <div class="column width-6 offset-3 center">
-					      <div class="widget">
-						<ul class="social-list list-horizontal center mb-1">
-						  <li><a href="https://www.instagram.com/mathformoneyapp/"><span class="icon-instagram-with-circle large"></span></a></li>
-						</ul>
-						<p class="copyright"> &copy; moneymathgames.com is a product of Funtown Limited. All Rights Reserved.</p>
-					      </div>
-					    </div>
-					  </div>
-					</div>
-				</footer>
-      		<!-- Footer End -->
+<Footer/>
 
 		</div>
 	</div>
