@@ -1,5 +1,6 @@
 <script>
 	import Footer from "$lib/Footer.svelte";
+	import treasure_image from "$lib/assets/treasure.webp"
 
     export let data;
 
@@ -81,13 +82,13 @@
 			<div class="content clearfix">
 
 				<!-- Intro Title -->
-				<div class="section-block" style="background-image:url(./rectangle.webp)">
+				<div class="section-block" style="background-image:url(./treasure-background.webp)">
 					<div class="row flex">
 						<div class="column width-10 offset-1 center">
 							<div class="title-container">
 								<div class="title-container-inner color-grey-ultralight">
-									<h1 class="title-xlarge mb-150">Math Treasure Hunt!</h1>
-									<a href="#treasure_hunt" class="button large bkg-orange-light bkg-hover-theme color-grey-ultralight color-hover-blue-light left mb-20">Click here to play</a>
+									<h1 class="title-xlarge mb-150" style="padding-bottom: 10rem;">Math Treasure Hunt!</h1>
+									<a href="#treasure_hunt" class="button large bkg-pink-treasure bkg-hover-theme color-grey-ultralight color-hover-blue-light left mb-20"  >Click here to play</a>
 								</div>
 							</div>
 						</div>
@@ -110,7 +111,7 @@
 									<br>We announce the winners weekly on our <a href="https://www.instagram.com/mathformoneyapp/" target=”_blank”>Instagram</a> every Friday. Follow us to see the unlock each week!
 								</p>
 
-								<a href="https://metamask.io/download/" target=”_blank” class="button large bkg-orange-light bkg-hover-theme color-grey-ultralight color-hover-blue-light left mb-20">Download MetaMask To Start</a>
+								<a href="https://metamask.io/download/" target=”_blank” class="button large bkg-pink-treasure bkg-hover-theme color-grey-ultralight color-hover-blue-light left mb-20">Download MetaMask To Start</a>
 								</div>
 								</div>
 

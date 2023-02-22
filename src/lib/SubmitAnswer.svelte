@@ -35,6 +35,7 @@
 <div class="column width-10 offset-1 center mb-70">
 {#if !web3Props.account}
   <button on:click={connectWallet}>Attach Wallet</button>
+  <p class="stuck">Not working? Make sure you have a Metamask wallet connected before you try attach a wallet</p>
 {:else}
   <p> Your wallet address is:</p>
   <p>{web3Props.account}</p>
@@ -89,3 +90,13 @@
       </form>
   {/if}
 </div>
+
+<style>
+  .stuck{
+    font-size: 1.25rem;
+	  line-height: 1.2;
+	  font-weight: 100;
+	  font-style: normal;
+  }
+ 
+</style>

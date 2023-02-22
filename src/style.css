@@ -154,7 +154,7 @@ h6{
 .title-xlarge{
 	font-size: 7.749rem;
 	line-height: 1.2;
-	font-family: ruddy, sans-serif;
+	font-family: "ruddy", sans-serif;
 	font-weight: 900;
 	font-style: normal;
 }
@@ -427,6 +427,11 @@ body,
 	color: #5761A2;
 }
 
+/* grey */
+.bkg-pink-treasure{
+	background-color: #F12177;
+	border-color: #F12177;
+}
 /*------------------------------------------------------------------
 [3. Section Padding]
 */

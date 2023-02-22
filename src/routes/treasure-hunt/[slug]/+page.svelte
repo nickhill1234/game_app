@@ -54,12 +54,14 @@
                                 <h1 class="title-large mb-30">
                                     {data.question}
                                 </h1>
+                                <img alt="{data.question}" src="../treasure-chest.webp" />
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- Intro Title End -->
+            
 
             <!-- Intro -->
             <div class="section-block pb-0">
