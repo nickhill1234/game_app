@@ -106,7 +106,7 @@
 					<div class="feature-image">
 						<div
 						class="feature-image-inner center-on-mobile center"						>
-						<img src="logo-dark.webp" alt="" />
+						<img src="treasure-chest.webp" alt="" />
 						</div>
 					</div>
 					</div>
@@ -138,7 +138,7 @@
 								<div class="column width-10 offset-1 center">
 								<div class="title-container">
 
-								<h3 class="title-medium mb-10"><a id="treasure_hunt">Math Treasure Hunt!</a></h3>
+								<h3 class="title-medium mb-10"><a id="treasure_hunt" href="math-treasure-hunt">Math Treasure Hunt!</a></h3>
 									<h4 class="title-small mb-30">Solve these math problems and stand a chance to win a weekly NFT worth $20!</h4>
 									<p>Simply attach your wallet and submit your answer to each question below and stand a chance to win. A NFT is hidden in one of the questions below.
 									<br>Submit your answer then follow us on <a href="https://www.instagram.com/mathformoneyapp/" target=”_blank”>Instagram</a> to see winners which are announced each Friday.
