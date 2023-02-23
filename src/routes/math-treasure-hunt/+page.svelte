@@ -1,6 +1,5 @@
 <script>
 	import Footer from "$lib/Footer.svelte";
-	import treasure_image from "$lib/assets/treasure.webp"
 
     export let data;
 
@@ -122,12 +121,12 @@
 									<article class="post">
 										<div class="post-media">
 											<div class="thumbnail img-scale-in">
-												<a class="overlay-link" href={`/treasure-hunt/${post.slug}`}>
+												<a class="overlay-link" href={`/math-treasure-hunt/${post.slug}`}>
 													<img src={post.page_thumbnail} alt=""/>
 													<span class="overlay-info">
 														<span>
 															<span>
-                                                                <a href={`/treasure-hunt/${post.slug}`}>{post.question}</a>
+                                                                <a href={`/math-treasure-hunt/${post.slug}`}>{post.question}</a>
 
 															</span>
 														</span>
@@ -136,7 +135,7 @@
 											</div>
 										</div>
 										<div class="post-content with-background">
-											<h2 class="post-title center"><a href={`/treasure-hunt/${post.slug}`}>{post.question}</a></h2>
+											<h2 class="post-title center"><a href={`/math-treasure-hunt/${post.slug}`}>{post.question}</a></h2>
 										</div>
 									</article>
 								</div>
