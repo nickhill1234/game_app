@@ -16,7 +16,7 @@
 		<meta name="title" content="Treasure Hunt | Money Math Games">
 		<meta name="description" content="Play this math treasure hunt game where you search for the math question that has money hidden in it!">
 
-		<link rel="canonical" href="https://www.moneymathgames.com" />
+		<link rel="canonical" href="https://www.moneymathgames.com/math-treasure-hunt" />
 
 </svelte:head>	
 

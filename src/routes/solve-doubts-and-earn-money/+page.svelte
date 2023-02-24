@@ -16,7 +16,7 @@
 		<meta name="title" content="Solve Doubts And Earn Money | Money Math Games">
 		<meta name="description" content="Solve these doubts and unlock money rewards! Solve these math problems and earn money by answering math questions.">
 
-		<link rel="canonical" href="https://www.moneymathgames.com" />
+		<link rel="canonical" href="https://www.moneymathgames.com/solve-doubts-and-earn-money" />
 
 </svelte:head>	
 

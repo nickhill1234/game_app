@@ -1,8 +1,6 @@
 <script>
 	import Footer from "../lib/Footer.svelte";
 
- 
-
 	let page_title = 'Money Math Games'
     let page_url = 'index'
     let meta_description = "Cool money math games that you can play to earn money! Play math games to win weekly prizes."
