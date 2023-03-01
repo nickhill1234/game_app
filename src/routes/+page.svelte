@@ -63,8 +63,8 @@
 						<div class="column width-12 nav-bar-inner">
 							<div class="logo">
 								<div class="logo-inner">
-									<a href="https://www.moneymathgames.com"><img src ="../logo-dark.webp" alt="Money Math Games Logo" /></a>
-									<a href="https://www.moneymathgames.com"><img src ="../logo.webp" alt="Money Math Games Logo" /></a>
+									<a href="https://www.moneymathgames.com"><img src ="logo-dark.webp" alt="Money Math Games Logo" /></a>
+									<a href="https://www.moneymathgames.com"><img src ="logo.webp" alt="Money Math Games Logo" /></a>
 								</div>
 							</div>
 							<nav class="navigation nav-block secondary-navigation nav-right">
@@ -83,7 +83,7 @@
 			<div class="content clearfix">
 
 				<!-- Intro Title -->
-				<div class="section-block" style="background-image:url(./rectangle.webp)">
+				<div class="section-block" style="background-image:url(./header.webp)">
 					<div class="row flex">
 						<div class="column width-10 offset-1 center">
 							<div class="title-container">
@@ -329,108 +329,18 @@
 									</article>
 								</div>
 
-								<div class="grid-item">
-									<article class="post">
-										<div class="post-media">
-											<div class="thumbnail img-scale-in" >
-												<a class="overlay-link" href="math-treasure-hunt/what-decimal-is-1:6">
-													<img src="3.webp" alt=""/>
-													<span class="overlay-info">
-														<span>
-															<span>
-																What decimal is 1/6
-															</span>
-														</span>
-													</span>
-												</a>
-											</div>
-										</div>
-										<div class="post-content with-background">
-											<h2 class="post-title"><a href="math-treasure-hunt/what-decimal-is-1:6">What decimal is 1/6</a></h2>
-											<p>This is a decimal question that tests your ability to break down a number into its factor pairs in order to solve the question. </p>
-										</div>
-									</article>
-								</div>
-
-								<div class="grid-item">
-									<article class="post">
-										<div class="post-media">
-											<div class="thumbnail img-scale-in" >
-												<a class="overlay-link" href="math-treasure-hunt/what-decimal-is-5:6">
-													<img src="1.webp" alt=""/>
-													<span class="overlay-info">
-														<span>
-															<span>
-																What decimal is 5/6
-															</span>
-														</span>
-													</span>
-												</a>
-											</div>
-										</div>
-										<div class="post-content with-background">
-											<h2 class="post-title"><a href="math-treasure-hunt/what-decimal-is-5:6">What decimal is 5/6</a></h2>
-											<p>This is a decimal question that tests your ability to break down a number into its factor pairs in order to solve the question. </p>
-										</div>
-									</article>
-								</div>
-
-								<div class="grid-item">
-									<article class="post">
-										<div class="post-media">
-											<div class="thumbnail img-scale-in" >
-												<a class="overlay-link" href="math-treasure-hunt/what-percentage-of-8-is-5">
-													<img src="2.webp" alt=""/>
-													<span class="overlay-info">
-														<span>
-															<span>
-																What percentage of 8 is 5
-															</span>
-														</span>
-													</span>
-												</a>
-											</div>
-										</div>
-										<div class="post-content with-background">
-											<h2 class="post-title"><a href="math-treasure-hunt/what-percentage-of-8-is-5">What percentage of 8 is 5</a></h2>
-											<p>This is a percentage question that tests your ability to convert whole numbers into percentages. </p>
-										</div>
-									</article>
-								</div>
-
-								<div class="grid-item">
-									<article class="post">
-										<div class="post-media">
-											<div class="thumbnail img-scale-in" >
-												<a class="overlay-link" href="math-treasure-hunt/what-percentage-of-20-is-5">
-													<img src="4.webp" alt=""/>
-													<span class="overlay-info">
-														<span>
-															<span>
-																What percentage of 20 is 5
-															</span>
-														</span>
-													</span>
-												</a>
-											</div>
-										</div>
-										<div class="post-content with-background">
-											<h2 class="post-title"><a href="math-treasure-hunt/what-percentage-of-8-is-5">What percentage of 20 is 5</a></h2>
-											<p>This is a percentage question that tests your ability to convert whole numbers into percentages. </p>
-										</div>
-									</article>
-								</div>
-
 							</div>
 						</div>
 					</div>
 				</div>
 				<!-- Content Inner End -->
 
-			</div>
+
+				</div>
 			<!-- Content End -->
 			
-<Footer/>
+			<Footer/>
+
 
 		</div>
 	</div>

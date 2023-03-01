@@ -10106,10 +10106,12 @@ body.boxed .header .header-inner {
 }
 .team-2 .occupation {
     margin-bottom: 2rem;
+    font-size: 5rem;
+    color: #999;
 }
 .team-2 .social-list .list-label {
     margin-right: 1rem;
-    font-size: 1rem;
+    font-size: 5rem;
     font-weight: 700;
     color: #999;
     text-transform: uppercase;

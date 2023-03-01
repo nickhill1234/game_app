@@ -90,7 +90,7 @@
                 <div class="row">
                     <div class="column width-12">
                         <div class="mb-50">
-                                    <h2 class="mb-30"><u>Hints to help you solve this {data.type_of_question} problem</u></h2>
+                                    <h2 class="mb-30"><u>Hints to help you solve "{data.question}"</u></h2>
                                     <div id="accordion-1-panel-1">
                                         <div class="accordion-content">
                                             <p class="lead mb-30">{data.hints_intro}

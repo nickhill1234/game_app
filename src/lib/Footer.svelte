@@ -1,9 +1,8 @@
 <script>
-      import foot_image from '$lib/assets/rectangle.webp';
+      import foot_image from '$lib/assets/footer.webp';
 
 </script>
 <footer id="footer" style="background-image: url({foot_image})">
-    <!-- <img alt="The project logo" src={foot_image} /> -->
     <div class="footer-top">
         <div class="row-flex">
             <div class="column width-6 offset-3 center">
@@ -19,11 +18,16 @@
     </div>   
 </footer>
 
-<footer class="test">
-
-</footer>
-
 <style>
+    footer{
+        width: 100%;
+        height: 30em;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-image: url(%sveltekit.assets%/rectangle.webp);
+    }
+
     .footer-top { 
         padding-top: 9rem;
         padding-bottom: 0;
