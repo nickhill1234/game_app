@@ -3,8 +3,12 @@ import Phaser from 'phaser';
     
 var config = {
 type: Phaser.AUTO,
-width: 800,
-height: 600,
+scale: {
+    parent: 'game-div',
+    // autoCenter: Phaser.Scale.CENTER_BOTH,
+    width: 800,
+    height: 600
+},
 physics: {
     default: 'arcade',
     arcade: {
@@ -12,6 +16,7 @@ physics: {
         debug: false
     }
 },
+
 scene: {
     preload: preload,
     create: create,
@@ -20,21 +25,31 @@ scene: {
 };
 
 var player;
-var stars;
+var one;
+var two;
 var bombs;
 var platforms;
 var cursors;
 var score = 0;
 var gameOver = false;
 var scoreText;
+var question = [
+    {Question: 'What is 1 x 1',
+    Answer: "one"},
+    {Question: 'What is 2 x 1',
+    Answer: "9"},
+];
+var questionText;
 
 var game = new Phaser.Game(config);
+
 
 function preload ()
 {
 this.load.image('sky', 'assets/sky.png');
 this.load.image('ground', 'assets/platform.png');
-this.load.image('star', 'assets/star.png');
+this.load.image('one', 'assets/1.png');
+this.load.image('two', 'assets/2.png');
 this.load.image('bomb', 'assets/bomb.png');
 this.load.spritesheet('dude', 'assets/dude.png', { frameWidth: 32, frameHeight: 48 });
 }
@@ -43,6 +58,9 @@ function create ()
 {
 //  A simple background for our game
 this.add.image(400, 300, 'sky');
+
+//create gem
+
 
 //  The platforms group contains the ground and the 2 ledges we can jump on
 platforms = this.physics.add.staticGroup();
@@ -88,16 +106,30 @@ this.anims.create({
 cursors = this.input.keyboard.createCursorKeys();
 
 //  Some stars to collect, 12 in total, evenly spaced 70 pixels apart along the x axis
-stars = this.physics.add.group({
-    key: 'star',
-    repeat: 11,
-    setXY: { x: 12, y: 0, stepX: 70 }
+one = this.physics.add.group({
+    key: 'one',
+    dataSource: 'answer',
+    repeat: 0,
+    setXY: { x: 20, y: 0, stepX: 0 }
 });
 
-stars.children.iterate(function (child) {
+one.children.iterate(function (child) {
 
-    //  Give each star a slightly different bounce
-    child.setBounceY(Phaser.Math.FloatBetween(0.4, 0.8));
+//  Give each star a slightly different bounce
+child.setBounceY(Phaser.Math.FloatBetween(0.4, 0.8));
+
+});
+
+two = this.physics.add.group({
+    key: 'two',
+    repeat: 0,
+    setXY: { x: 80, y: 0, stepX: 0 }
+});
+
+two.children.iterate(function (child) {
+
+//  Give each star a slightly different bounce
+child.setBounceY(Phaser.Math.FloatBetween(0.4, 0.8));
 
 });
 
@@ -105,14 +137,17 @@ bombs = this.physics.add.group();
 
 //  The score
 scoreText = this.add.text(16, 16, 'score: 0', { fontSize: '32px', fill: '#000' });
+questionText = this.add.text(125, 75, question[0]['Question'], { fontSize: '32px', fill: '#000' });
 
 //  Collide the player and the stars with the platforms
 this.physics.add.collider(player, platforms);
-this.physics.add.collider(stars, platforms);
+this.physics.add.collider(one, platforms);
+this.physics.add.collider(two, platforms);
 this.physics.add.collider(bombs, platforms);
 
 //  Checks to see if the player overlaps with any of the stars, if he does call the collectStar function
-this.physics.add.overlap(player, stars, collectStar, null, this);
+this.physics.add.overlap(player, one, collectOne, null, this);
+this.physics.add.overlap(player, two, collectTwo, null, this);
 
 this.physics.add.collider(player, bombs, hitBomb, null, this);
 }
@@ -149,22 +184,44 @@ if (cursors.up.isDown && player.body.touching.down)
 }
 }
 
-function collectStar (player, star)
+function collectTwo (player, two)
 {
-star.disableBody(true, true);
+two.disableBody(true, true);
 
-//  Add and update the score
-score += 10;
+score -= 10;
 scoreText.setText('Score: ' + score);
+}
 
-if (stars.countActive(true) === 0)
+function collectOne (player, one)
+{
+one.disableBody(true, true);
+console.log(one.texture.key);
+
+
+if (one.texture.key == question[0]['Answer'])
+//  Add and update the score
+{   
+    score += 10;
+    scoreText.setText('Score: ' + score);
+    levelUp();
+}
+}
+function levelUp()
 {
     //  A new batch of stars to collect
-    stars.children.iterate(function (child) {
+    one.children.iterate(function (child) {
 
         child.enableBody(true, child.x, 0, true, true);
 
     });
+
+    two.children.iterate(function (child) {
+
+    child.enableBody(true, child.x, 0, true, true);
+
+    });
+
+    questionText.setText(question[1]['Question']);
 
     var x = (player.x < 400) ? Phaser.Math.Between(400, 800) : Phaser.Math.Between(0, 400);
 
@@ -175,7 +232,7 @@ if (stars.countActive(true) === 0)
     bomb.allowGravity = false;
 
 }
-}
+
 
 function hitBomb (player, bomb)
 {

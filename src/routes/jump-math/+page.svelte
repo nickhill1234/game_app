@@ -6,7 +6,8 @@ import MathJump from "$lib/MathJump.svelte";
 
 <div class="column width-10 offset-1 center">
     <h1>Jump Math!</h1>
-    <p>Highest score each week receives an NFT worth $5!</p>
+    <p>Each time you chose the correct answer you earn points. 
+        <br>If you select the wrong answer your loose points</p>
     <MathJump/>
 </div>
 

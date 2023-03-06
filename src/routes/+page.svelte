@@ -163,7 +163,7 @@
 										</div>
 										<div class="post-content with-background">
 											<h2 class="post-title"><a href="math-treasure-hunt/what-are-the-factors-of-100">What are the factors of 100</a></h2>
-											<p>This is a factorisation question that tests your ability to break down a number into its factor pairs. </p>
+											<p>This factorisation question that tests your ability to break down a number into its factor pairs. </p>
 										</div>
 									</article>
 								</div>
@@ -186,7 +186,7 @@
 										</div>
 										<div class="post-content with-background">
 											<h2 class="post-title"><a href="math-treasure-hunt/what-are-the-factors-of-33">What are the factors of 33</a></h2>
-											<p>This is a factorisation question that tests your ability to break down a number into its factor pairs. </p>
+											<p>This factorisation question that tests your ability to break down a number into its factor pairs. </p>
 										</div>
 									</article>
 								</div>
@@ -255,7 +255,7 @@
 										</div>
 										<div class="post-content with-background">
 											<h2 class="post-title"><a href="math-treasure-hunt/3-fifteens">3 fifteens</a></h2>
-											<p>This is a multilpication question that tests your ability to break down a number into its factor pairs in order to solve the question. </p>
+											<p>This multipication question tests your ability to break down numbers factor pairs in order to solve the question. </p>
 										</div>
 									</article>
 								</div>
@@ -278,7 +278,7 @@
 										</div>
 										<div class="post-content with-background">
 											<h2 class="post-title"><a href="math-treasure-hunt/5-1:2-as-a-decimal">5 1/2 as a decimal</a></h2>
-											<p>This is a decimal question that tests your ability to break down a number into its factor pairs in order to solve the question. </p>
+											<p>This decimal question tests your ability to break down a number into its factor pairs in order to solve the question. </p>
 										</div>
 									</article>
 								</div>
@@ -301,7 +301,7 @@
 										</div>
 										<div class="post-content with-background">
 											<h2 class="post-title"><a href="math-treasure-hunt/5-is-what-percent-of-2">5 is what percent of 2</a></h2>
-											<p>This is a percent question that tests your ability to break down a number into its factor pairs in order to solve the question. </p>
+											<p>This percent question tests your ability to break down a number into its factor pairs in order to solve the question. </p>
 										</div>
 									</article>
 								</div>
@@ -324,7 +324,7 @@
 										</div>
 										<div class="post-content with-background">
 											<h2 class="post-title"><a href="math-treasure-hunt/5-is-what-percent-of-20">5 is what percent of 20</a></h2>
-											<p>This is a percent question that tests your ability to break down a number into its factor pairs in order to solve the question. </p>
+											<p>This percent question tests your ability to break down a number into its factor pairs in order to solve the question. </p>
 										</div>
 									</article>
 								</div>
@@ -334,7 +334,62 @@
 					</div>
 				</div>
 				<!-- Content Inner End -->
+								<!-- NFT Grid -->
+								<div class="section-block replicable-content bkg-grey-ultralight">
+									<div class="row">
+										<div class="column center width-12">
+											<h3 class="mb-50">See our past NFT winners!</h3>
+											<h4 class="mb-50">Check out our <a href="https://opensea.io/collection/math-treasure-hunt" target=”_blank”> NFT page</a> to view our collection.</h4>
+										</div>
+										<div class="column width-12">
+											<div class="row content-grid-3 center">
+												<div class="grid-item"  >
+													<div class="thumbnail no-margin-bottom" >
+														<a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/45467654088607569510196568564608339478309866350944487180964186461026683715585"><img src ="0.75-as-a-fraction.webp" alt="0.75 As A Fraction NFT" target=”_blank” class="mb-10"/></a>
+													</div>
+													<div class="team-2 team-content-info center">
+														<h4 class="mb-10"><a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/45467654088607569510196568564608339478309866350944487180964186461026683715585" target=”_blank”>0.75 As A Fraction</a></h4>
+														<h4 class="occupation">Won by: <a href="https://opensea.io/edbailey" target=”_blank”>edbailey</a></h4>
+														<p>This is one of our first and rarest NFTs! The question tests converting decimals into fractions. The original question can be seen by clicking the open treasure chest below. </p>
+														<!-- <ul class="social-list list-horizontal small">
+															<li><a href="https://www.moneymathgames.com/math-treasure-hunt/0.75-as-a-fraction" target=”_blank”><img src ="treasure-chest.webp" alt="Money Math Games Logo" /></a></li>
+														</ul> -->
+													</div>
+												</div>
 
+												<div class="grid-item" >
+													<div class="thumbnail no-margin-bottom" >
+														<img src="mystery.webp" class="mb-10" alt=""/>
+													</div>
+													<div class="team-2 team-content-info center">
+														<h4 class="mb-10">???</h4>
+														<h4 class="occupation">Solve one of the math questions above to stand a chance to be one of our winners!</h4>
+														<p>We award a new NFT worth $20 to a person who answers one of the above questions correctly each week. Answer the questions above to stand a chance to be a winner!</p>
+														<!-- <ul class="social-list list-horizontal">
+															<li><a href="#"><span class="icon-linkedin-with-circle small"></span></a></li>
+														</ul> -->
+													</div>
+												</div>
+
+												<div class="grid-item"  >
+													<div class="thumbnail no-margin-bottom" >
+														<a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/45467654088607569510196568564608339478309866350944487180964186462126195343361"><img src ="factors-of-33.webp" alt="Factors of 33 NFT" target=”_blank” class="mb-10"/></a>
+													</div>
+													<div class="team-2 team-content-info center">
+														<h4 class="mb-10"><a href="https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/45467654088607569510196568564608339478309866350944487180964186461026683715585" target=”_blank”>What are the factors of 33</a></h4>
+														<h4 class="occupation">Won by: <a href="https://opensea.io/JoshuAntona" target=”_blank”>JoshuAntona</a></h4>
+														<p>The second NFT in the collection, this question tests factorization and helps students find the factors of an odd number!</p>
+														<!-- <ul class="social-list list-horizontal">
+															<li><a href="#"><span class="icon-linkedin-with-circle small"></span></a></li>
+														</ul> -->
+													</div>
+												</div>
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- NFT Grid End -->
 
 				</div>
 			<!-- Content End -->

@@ -1,11 +1,15 @@
 
 export const posts = [
     {
+        claimed: true,
+        winner: 'https://opensea.io/edbailey',
+        winner_name: 'edbailey',
+        open_sea_url: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/45467654088607569510196568564608339478309866350944487180964186461026683715585',
         question: '0.75 as a fraction',
         slug:'0.75-as-a-fraction',
         type_of_question: 'fraction',
         meta_description: "Convert 0.75 into a fraction with our simple step-by-step guide. Learn how to identify the place value and simplify the fraction for easy use. Earn a money reward if you can solve this question correctly!",
-        page_thumbnail: '1.webp',
+        page_thumbnail: 'gold-chest.webp',
         answer_tip: "",
         hints_intro: "",
         hint_1_title: "Convert the fraction with a denominator of 1:",
@@ -121,11 +125,15 @@ export const posts = [
     },
 
     {
+        claimed: true,
+        winner: 'https://opensea.io/JoshuAntona',
+        winner_name: 'JoshuAntona',
+        open_sea_url: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/45467654088607569510196568564608339478309866350944487180964186462126195343361",
         question: 'What are the factors of 33',
         slug:'what-are-the-factors-of-33',
         type_of_question: 'factorization',
         meta_description: "What are the factors of 33? Solve this problem and earn a money reward. Learn how to find the factors of 33 by creating a list of the factors and using the prime factors method.",
-        page_thumbnail: "1.webp",
+        page_thumbnail: "gold-chest.webp",
         answer_tip: "",
         hints_intro: "Hints to help you find the factors of 33",
         hint_1_title: "Start with the smallest factors:",
@@ -240,5 +248,44 @@ export const posts = [
         step_3: "Our last step is then to convert our numerator (5) using the same multipler (5) to get our percentage."
     },
 
+    {
+        question: '1.5 as a fraction',
+        slug:'1.5-as-a-fraction',
+        type_of_question: 'fraction',
+        meta_description: "What is 1.5 as a fraction? Learn how to solve 1.5 as a fraction and earn a money reward if you can solve the question correctly.",
+        page_thumbnail: "4.webp",
+        answer_tip: "",
+        hints_intro: "Here are some hints and tips to help solve 1.5 as a fraction:",
+        hint_1_title: "Understand what a fraction means:",
+        hint_1: "A fraction represents a part of a whole. If you have a pie and you cut it into eight equal slices, each slice is 1/8 of the whole pie.",
+        hint_2_title: "Convert the decimal to a fraction:",
+        hint_2: "To convert 1.5 to a fraction, we need to understand that the decimal point separates the whole number from the decimal part. In this case, 1 is the whole number and 0.5 is the decimal part. ",
+        hint_3_title: "Simplify:",
+        hint_3: " To convert the decimal part to a fraction, we can write 0.5 as 5/10. We can simplify this fraction by dividing both the numerator and denominator by 5, which gives us 1/2.",
+        step_intro: "We need to understand how to convert decimals into fractions to solve 1.5 as a fraction.",
+        step_1: "The first step is to write 1.5 as a fraction with a denominator of 1. So, 0.5 becomes 50/100.",
+        step_2: "Then the next step is to identify the place value. In this case, we can see that the decimal point is after the hundredth place. This means that the denominator of the fraction will be 100.",
+        step_3: "Lastly you will multiply the decimal by the denominator. Take 0.50 and multiply by 100 to get the numerator of the fraction. So, 50/100 is your fraction. Lastly simplify this fraction by dividing by the greatest common factor (which is 50) to get the fraction in its simplist form."
+    },
+
+    {
+        question: 'Factors of 75',
+        slug:'factors-of-75',
+        type_of_question: 'factorization',
+        meta_description: "What are the factors of 75? Learn how to determine the factors of 75 and earn a money reward if you can solve this question correctly.",
+        page_thumbnail: "2.webp",
+        answer_tip: "",
+        hints_intro: "Here are some hints and tips to find the factors of 75:",
+        hint_1_title: "Understand what factors mean:",
+        hint_1: "Factors are numbers that can be multiplied together to get a particular number. For example, the factors of 6 are 1, 2, 3, and 6 because 1 x 6 = 6 and 2 x 3 = 6.",
+        hint_2_title: "Break down the number:",
+        hint_2: "To find the factors of 75, it can be helpful to break it down into its prime factors. Prime factors are numbers that are only divisible by 1 and themselves. In this case, 75 can be broken down into 3 x 5 x 5.",
+        hint_3_title: "Find the factors:",
+        hint_3: "To find the factors of 75, we can start by listing all the factors of 3, 5, and 5. The factors of 3 are 1 and 3. The factors of 5 are 1 and 5. We can list the factors by multiplying these together: 1 x 1 x 1 = 1, 1 x 1 x 5 = 5, 1 x 5 x 1 = 5, 1 x 5 x 5 = 25, 3 x 1 x 1 = 3, 3 x 1 x 5 = 15, 3 x 5 x 1 = 15, and 3 x 5 x 5 = 75.",
+        step_intro: "To find the factors of the number 75, we need to find numbers that multiply together to make 33.",
+        step_1: "The easiest is to start by dividing 75 by 1 and see if it goes evenly. To divide, we can use the symbol ÷. When we divide 75 by 1, we get 75 with no remainder which tells us 1 and 75 are factors.",
+        step_2: "Now we will move on to the number 2, and see if it divides evenly into 75. When we divide 75 by 2, we end up with a remainder of 5 so we know that 2 is not a factor.",
+        step_3: "You should be getting the hang of it right now! Keep going down the list in the same way as step 1 and 2 then submit your answer in the space above!"
+    },
   ];
   

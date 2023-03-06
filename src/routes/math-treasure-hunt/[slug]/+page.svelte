@@ -44,7 +44,7 @@
         <div class="content clearfix">
 
             <!-- Intro Title -->
-            <div class="section-block" style="background-image:url(../rectangle.webp)">
+            <div class="section-block" style="background-image:url(../header.webp)">
             <!-- <div class="section-block intro-title-2"> -->
 
                 <div class="row">
