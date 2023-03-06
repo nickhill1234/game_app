@@ -172,12 +172,12 @@
 									<article class="post">
 										<div class="post-media">
 											<div class="thumbnail img-scale-in" >
-												<a class="overlay-link" href="math-treasure-hunt/what-are-the-factors-of-33">
+												<a class="overlay-link" href="math-treasure-hunt/what-are-the-factors-of-75">
 													<img src="2.webp" alt=""/>
 													<span class="overlay-info">
 														<span>
 															<span>
-																What are the factors of 33
+																What are the factors of 75
 															</span>
 														</span>
 													</span>
@@ -185,7 +185,7 @@
 											</div>
 										</div>
 										<div class="post-content with-background">
-											<h2 class="post-title"><a href="math-treasure-hunt/what-are-the-factors-of-33">What are the factors of 33</a></h2>
+											<h2 class="post-title"><a href="math-treasure-hunt/what-are-the-factors-of-75">What are the factors of 75</a></h2>
 											<p>This factorisation question that tests your ability to break down a number into its factor pairs. </p>
 										</div>
 									</article>
@@ -195,12 +195,12 @@
 									<article class="post">
 										<div class="post-media">
 											<div class="thumbnail img-scale-in" >
-												<a class="overlay-link" href="math-treasure-hunt/0.75-as-a-fraction">
+												<a class="overlay-link" href="math-treasure-hunt/1.5-as-a-fraction">
 													<img src="3.webp" alt=""/>
 													<span class="overlay-info">
 														<span>
 															<span>
-																0.75 as a fraction
+																1.5 as a fraction
 															</span>
 														</span>
 													</span>
@@ -208,7 +208,7 @@
 											</div>
 										</div>
 										<div class="post-content with-background">
-											<h2 class="post-title"><a href="math-treasure-hunt/0.75-as-a-fraction">0.75 as a fraction</a></h2>
+											<h2 class="post-title"><a href="math-treasure-hunt/1.5-as-a-fraction">1.5 as a fraction</a></h2>
 											<p>This is a fraction question that tests your ability to break down a number into its factor pairs in order to solve the question. </p>
 										</div>
 									</article>
