@@ -54,7 +54,7 @@
                                 <h1 class="title-large mb-30">
                                     {data.question}
                                 </h1>
-                                <img alt="{data.question}" src="../treasure-chest.webp" />
+                                <img alt="{data.question}" src="../{data.nft_chest_pic}" />
                             </div>
                         </div>
                     </div>

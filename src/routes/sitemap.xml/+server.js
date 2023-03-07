@@ -22,7 +22,14 @@ export async function GET({ setHeaders }) {
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     </url>
-  
+
+    <url>
+    <loc>https://www.moneymathgames.com/jump-math</loc>
+    <lastmod>2023-02-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    </url>
+
     <url>
     <loc>https://www.moneymathgames.com/solve-doubts-and-earn-money</loc>
     <lastmod>2023-02-23</lastmod>
@@ -109,6 +116,20 @@ export async function GET({ setHeaders }) {
 
     <url>
     <loc>https://www.moneymathgames.com/math-treasure-hunt/0.125-as-a-fraction</loc>
+    <lastmod>2023-02-23</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    </url> 
+
+    <url>
+    <loc>https://www.moneymathgames.com/math-treasure-hunt/1.5-as-a-fraction</loc>
+    <lastmod>2023-03-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    </url> 
+
+    <url>
+    <loc>https://www.moneymathgames.com/math-treasure-hunt/factors-of-75</loc>
     <lastmod>2023-02-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>

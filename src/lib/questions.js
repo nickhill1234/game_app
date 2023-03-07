@@ -5,11 +5,12 @@ export const posts = [
         winner: 'https://opensea.io/edbailey',
         winner_name: 'edbailey',
         open_sea_url: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/45467654088607569510196568564608339478309866350944487180964186461026683715585',
+        nft_chest_pic: '0.75-as-a-fraction-treasure.webp',
         question: '0.75 as a fraction',
         slug:'0.75-as-a-fraction',
         type_of_question: 'fraction',
         meta_description: "Convert 0.75 into a fraction with our simple step-by-step guide. Learn how to identify the place value and simplify the fraction for easy use. Earn a money reward if you can solve this question correctly!",
-        page_thumbnail: 'gold-chest.webp',
+        page_thumbnail: '0.75-as-a-fraction-claimed.webp',
         answer_tip: "",
         hints_intro: "",
         hint_1_title: "Convert the fraction with a denominator of 1:",
@@ -25,6 +26,7 @@ export const posts = [
     },
 
     {
+        nft_chest_pic: 'treasure-chest.webp',
         question: '0.125 as a fraction',
         slug:'0.125-as-a-fraction',
         type_of_question: 'fraction',
@@ -45,6 +47,7 @@ export const posts = [
     },
 
     {
+        nft_chest_pic: 'treasure-chest.webp',
         question: '3 fifteens',
         slug:'3-fifteens',
         type_of_question: 'multiplication',
@@ -65,6 +68,7 @@ export const posts = [
     },
 
     {
+        nft_chest_pic: 'treasure-chest.webp',
         question: '5 1/2 as a decimal',
         slug:'5-1:2-as-a-decimal',
         type_of_question: 'decimal',
@@ -85,6 +89,7 @@ export const posts = [
     },
 
     {
+        nft_chest_pic: 'treasure-chest.webp',
         question: '5 is what percent of 2',
         slug:'5-is-what-percent-of-2',
         type_of_question: 'percent',
@@ -105,6 +110,7 @@ export const posts = [
     },
 
     {
+        nft_chest_pic: 'treasure-chest.webp',
         question: '5 is what percent of 20',
         slug:'5-is-what-percent-of-20',
         type_of_question: 'percent',
@@ -129,11 +135,12 @@ export const posts = [
         winner: 'https://opensea.io/JoshuAntona',
         winner_name: 'JoshuAntona',
         open_sea_url: "https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/45467654088607569510196568564608339478309866350944487180964186462126195343361",
+        nft_chest_pic: 'factors-of-33-treasure.webp',
         question: 'What are the factors of 33',
         slug:'what-are-the-factors-of-33',
         type_of_question: 'factorization',
         meta_description: "What are the factors of 33? Solve this problem and earn a money reward. Learn how to find the factors of 33 by creating a list of the factors and using the prime factors method.",
-        page_thumbnail: "gold-chest.webp",
+        page_thumbnail: 'factors-of-33-claimed.webp',
         answer_tip: "",
         hints_intro: "Hints to help you find the factors of 33",
         hint_1_title: "Start with the smallest factors:",
@@ -149,6 +156,7 @@ export const posts = [
     },
 
     {
+        nft_chest_pic: 'treasure-chest.webp',
         question: 'What are the factors of 100',
         slug:'what-are-the-factors-of-100',
         type_of_question: 'factorization',
@@ -169,6 +177,7 @@ export const posts = [
     },
 
     {
+        nft_chest_pic: 'treasure-chest.webp',
         question: 'What decimal is 1/6',
         slug:'what-decimal-is-1:6',
         type_of_question: 'decimal',
@@ -189,6 +198,7 @@ export const posts = [
     },
 
     {
+        nft_chest_pic: 'treasure-chest.webp',
         question: 'What decimal is 5/6',
         slug:'what-decimal-is-5:6',
         type_of_question: 'decimal',
@@ -209,6 +219,7 @@ export const posts = [
     },
 
     {
+        nft_chest_pic: 'treasure-chest.webp',
         question: 'What percentage of 8 is 5',
         slug:'what-percentage-of-8-is-5',
         type_of_question: 'percentage',
@@ -229,6 +240,7 @@ export const posts = [
     },
 
     {
+        nft_chest_pic: 'treasure-chest.webp',
         question: 'What percentage of 20 is 5',
         slug:'what-percentage-of-20-is-5',
         type_of_question: 'percentage',
@@ -249,6 +261,7 @@ export const posts = [
     },
 
     {
+        nft_chest_pic: 'treasure-chest.webp',
         question: '1.5 as a fraction',
         slug:'1.5-as-a-fraction',
         type_of_question: 'fraction',
@@ -269,6 +282,7 @@ export const posts = [
     },
 
     {
+        nft_chest_pic: 'treasure-chest.webp',
         question: 'Factors of 75',
         slug:'factors-of-75',
         type_of_question: 'factorization',

@@ -172,12 +172,12 @@
 									<article class="post">
 										<div class="post-media">
 											<div class="thumbnail img-scale-in" >
-												<a class="overlay-link" href="math-treasure-hunt/what-are-the-factors-of-75">
+												<a class="overlay-link" href="math-treasure-hunt/factors-of-75">
 													<img src="2.webp" alt=""/>
 													<span class="overlay-info">
 														<span>
 															<span>
-																What are the factors of 75
+																Factors of 75
 															</span>
 														</span>
 													</span>
@@ -185,7 +185,7 @@
 											</div>
 										</div>
 										<div class="post-content with-background">
-											<h2 class="post-title"><a href="math-treasure-hunt/what-are-the-factors-of-75">What are the factors of 75</a></h2>
+											<h2 class="post-title"><a href="math-treasure-hunt/factors-of-75">What are the factors of 75</a></h2>
 											<p>This factorisation question that tests your ability to break down a number into its factor pairs. </p>
 										</div>
 									</article>

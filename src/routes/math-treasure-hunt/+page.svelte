@@ -170,7 +170,7 @@
 										<div class="post-content with-background">
 											<h2 class="post-title center"><a href={`/math-treasure-hunt/${post.slug}`}>{post.question}</a></h2>
 											
-											<p>Click <a href={post.open_sea_url} target="_blank" rel="noopener noreferrer">here</a> to see the NFT. 
+											<p class="center">Click <a href={post.open_sea_url} target="_blank" rel="noopener noreferrer">here</a> to see the NFT. 
 											<br>Won by <a href={post.winner} target="_blank" rel="noopener noreferrer">{post.winner_name} </a>
 											</p>
 

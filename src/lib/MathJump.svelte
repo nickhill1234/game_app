@@ -27,17 +27,29 @@ scene: {
 var player;
 var one;
 var two;
+var three;
+var four;
+var five;
+var six;
+var seven;
+var eight;
+var nine;
 var bombs;
 var platforms;
 var cursors;
+var level = 0;
 var score = 0;
 var gameOver = false;
 var scoreText;
 var question = [
-    {Question: 'What is 1 x 1',
-    Answer: "one"},
-    {Question: 'What is 2 x 1',
-    Answer: "9"},
+    {Question: 'Select multiples of 3',
+    Answer: ["three","six","nine"]},
+    {Question: 'What are the prime factors of 10?',
+    Answer: ["two","five"]},
+    {Question: 'Select multiples of 2',
+    Answer: ["two","four","six","eight"]},
+    {Question: 'What are the prime factors of 12?',
+    Answer: ["two","three"]},
 ];
 var questionText;
 
@@ -50,6 +62,13 @@ this.load.image('sky', 'assets/sky.png');
 this.load.image('ground', 'assets/platform.png');
 this.load.image('one', 'assets/1.png');
 this.load.image('two', 'assets/2.png');
+this.load.image('three', 'assets/3.png');
+this.load.image('four', 'assets/4.png');
+this.load.image('five', 'assets/5.png');
+this.load.image('six', 'assets/6.png');
+this.load.image('seven', 'assets/7.png');
+this.load.image('eight', 'assets/8.png');
+this.load.image('nine', 'assets/9.png');
 this.load.image('bomb', 'assets/bomb.png');
 this.load.spritesheet('dude', 'assets/dude.png', { frameWidth: 32, frameHeight: 48 });
 }
@@ -110,7 +129,7 @@ one = this.physics.add.group({
     key: 'one',
     dataSource: 'answer',
     repeat: 0,
-    setXY: { x: 20, y: 0, stepX: 0 }
+    setXY: { x: 30, y: 0, stepX: 0 }
 });
 
 one.children.iterate(function (child) {
@@ -123,10 +142,101 @@ child.setBounceY(Phaser.Math.FloatBetween(0.4, 0.8));
 two = this.physics.add.group({
     key: 'two',
     repeat: 0,
-    setXY: { x: 80, y: 0, stepX: 0 }
+    setXY: { x: 115, y: 0, stepX: 0 }
 });
 
 two.children.iterate(function (child) {
+
+//  Give each star a slightly different bounce
+child.setBounceY(Phaser.Math.FloatBetween(0.4, 0.8));
+
+});
+
+three = this.physics.add.group({
+    key: 'three',
+    repeat: 0,
+    setXY: { x: 200, y: 0, stepX: 0 }
+});
+
+three.children.iterate(function (child) {
+
+//  Give each star a slightly different bounce
+child.setBounceY(Phaser.Math.FloatBetween(0.4, 0.8));
+
+});
+
+four = this.physics.add.group({
+    key: 'four',
+    repeat: 0,
+    setXY: { x: 285, y: 0, stepX: 0 }
+});
+
+four.children.iterate(function (child) {
+
+//  Give each star a slightly different bounce
+child.setBounceY(Phaser.Math.FloatBetween(0.4, 0.8));
+
+});
+
+five = this.physics.add.group({
+    key: 'five',
+    repeat: 0,
+    setXY: { x: 370, y: 0, stepX: 0 }
+});
+
+five.children.iterate(function (child) {
+
+//  Give each star a slightly different bounce
+child.setBounceY(Phaser.Math.FloatBetween(0.4, 0.8));
+
+});
+
+six = this.physics.add.group({
+    key: 'six',
+    repeat: 0,
+    setXY: { x: 480, y: 0, stepX: 0 }
+});
+
+six.children.iterate(function (child) {
+
+//  Give each star a slightly different bounce
+child.setBounceY(Phaser.Math.FloatBetween(0.4, 0.8));
+
+});
+
+seven = this.physics.add.group({
+    key: 'seven',
+    repeat: 0,
+    setXY: { x: 600, y: 0, stepX: 0 }
+});
+
+seven.children.iterate(function (child) {
+
+//  Give each star a slightly different bounce
+child.setBounceY(Phaser.Math.FloatBetween(0.4, 0.8));
+
+});
+
+eight = this.physics.add.group({
+    key: 'eight',
+    repeat: 0,
+    setXY: { x: 685, y: 0, stepX: 0 }
+});
+
+eight.children.iterate(function (child) {
+
+//  Give each star a slightly different bounce
+child.setBounceY(Phaser.Math.FloatBetween(0.4, 0.8));
+
+});
+
+nine = this.physics.add.group({
+    key: 'nine',
+    repeat: 0,
+    setXY: { x: 770, y: 0, stepX: 0 }
+});
+
+nine.children.iterate(function (child) {
 
 //  Give each star a slightly different bounce
 child.setBounceY(Phaser.Math.FloatBetween(0.4, 0.8));
@@ -137,17 +247,35 @@ bombs = this.physics.add.group();
 
 //  The score
 scoreText = this.add.text(16, 16, 'score: 0', { fontSize: '32px', fill: '#000' });
-questionText = this.add.text(125, 75, question[0]['Question'], { fontSize: '32px', fill: '#000' });
+questionText = this.add.text(125, 75, question[level]['Question'], { fontSize: '32px', fill: '#000' });
 
 //  Collide the player and the stars with the platforms
 this.physics.add.collider(player, platforms);
 this.physics.add.collider(one, platforms);
 this.physics.add.collider(two, platforms);
+this.physics.add.collider(three, platforms);
+this.physics.add.collider(four, platforms);
+this.physics.add.collider(five, platforms);
+this.physics.add.collider(six, platforms);
+this.physics.add.collider(seven, platforms);
+this.physics.add.collider(eight, platforms);
+this.physics.add.collider(nine, platforms);
+
+
 this.physics.add.collider(bombs, platforms);
 
 //  Checks to see if the player overlaps with any of the stars, if he does call the collectStar function
 this.physics.add.overlap(player, one, collectOne, null, this);
 this.physics.add.overlap(player, two, collectTwo, null, this);
+this.physics.add.overlap(player, three, collectThree, null, this);
+this.physics.add.overlap(player, four, collectFour, null, this);
+this.physics.add.overlap(player, five, collectFive, null, this);
+this.physics.add.overlap(player, six, collectSix, null, this);
+this.physics.add.overlap(player, seven, collectSeven, null, this);
+this.physics.add.overlap(player, eight, collectEight, null, this);
+this.physics.add.overlap(player, nine, collectNine, null, this);
+
+
 
 this.physics.add.collider(player, bombs, hitBomb, null, this);
 }
@@ -184,31 +312,93 @@ if (cursors.up.isDown && player.body.touching.down)
 }
 }
 
-function collectTwo (player, two)
-{
-two.disableBody(true, true);
-
-score -= 10;
-scoreText.setText('Score: ' + score);
-}
-
 function collectOne (player, one)
 {
 one.disableBody(true, true);
-console.log(one.texture.key);
+checkAnswer(one)
+}
 
+function collectTwo (player, two)
+{
+two.disableBody(true, true);
+checkAnswer(two)
+}
 
-if (one.texture.key == question[0]['Answer'])
-//  Add and update the score
+function collectThree (player, three)
+{
+three.disableBody(true, true);
+checkAnswer(three)
+}
+
+function collectFour (player, four)
+{
+four.disableBody(true, true);
+checkAnswer(four)
+}
+
+function collectFive (player, five)
+{
+    five.disableBody(true, true);
+    checkAnswer(five)
+}
+
+function collectSix (player, six)
+{
+    six.disableBody(true, true);
+    checkAnswer(six)
+}
+
+function collectSeven (player, seven)
+{
+    seven.disableBody(true, true);
+    checkAnswer(seven)
+}
+
+function collectEight (player, eight)
+{
+    eight.disableBody(true, true);
+    checkAnswer(eight)
+}
+
+function collectNine (player, nine)
+{
+    nine.disableBody(true, true);
+    checkAnswer(nine)
+}
+
+function checkAnswer(choice)
+{
+if (question[level]['Answer'].includes(choice.texture.key))
 {   
+    for( var i = 0; i < question[level]['Answer'].length; i++)
+    { 
+        if ( question[level]['Answer'][i] === choice.texture.key) { 
+            question[level]['Answer'].splice(i, 1); 
+        }
+    }
     score += 10;
     scoreText.setText('Score: ' + score);
-    levelUp();
+    checkLengthAnswer();
+}
+else
+{
+    score -= 10;
+    scoreText.setText('Score: ' + score);
 }
 }
+
+function checkLengthAnswer()
+{
+    if(question[level]['Answer'].length == 0)
+    {
+        levelUp();
+    }
+}
+
 function levelUp()
 {
     //  A new batch of stars to collect
+
     one.children.iterate(function (child) {
 
         child.enableBody(true, child.x, 0, true, true);
@@ -221,7 +411,59 @@ function levelUp()
 
     });
 
-    questionText.setText(question[1]['Question']);
+    three.children.iterate(function (child) {
+
+    child.enableBody(true, child.x, 0, true, true);
+
+    });
+
+    four.children.iterate(function (child) {
+
+    child.enableBody(true, child.x, 0, true, true);
+
+    });
+
+    five.children.iterate(function (child) {
+
+    child.enableBody(true, child.x, 0, true, true);
+
+    });
+
+    six.children.iterate(function (child) {
+
+    child.enableBody(true, child.x, 0, true, true);
+
+    });
+
+    seven.children.iterate(function (child) {
+
+    child.enableBody(true, child.x, 0, true, true);
+
+    });
+
+    eight.children.iterate(function (child) {
+
+    child.enableBody(true, child.x, 0, true, true);
+
+    });
+
+    nine.children.iterate(function (child) {
+
+    child.enableBody(true, child.x, 0, true, true);
+
+    });
+
+    level += 1;
+    if (level ==question.length)
+    {   
+        questionText.setText(question[0]['Question']);
+        level = 0
+    }
+    else
+    {   
+        questionText.setText(question[level]['Question']);
+    }
+    
 
     var x = (player.x < 400) ? Phaser.Math.Between(400, 800) : Phaser.Math.Between(0, 400);
 
