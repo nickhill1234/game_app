@@ -41,6 +41,7 @@ var level = 0;
 var score = 0;
 var gameOver = false;
 var scoreText;
+var emptyList = [];
 var question = [
     {Question: 'Select multiples of 3',
     Answer: ["three","six","nine"]},
@@ -127,7 +128,6 @@ cursors = this.input.keyboard.createCursorKeys();
 //  Some stars to collect, 12 in total, evenly spaced 70 pixels apart along the x axis
 one = this.physics.add.group({
     key: 'one',
-    dataSource: 'answer',
     repeat: 0,
     setXY: { x: 30, y: 0, stepX: 0 }
 });
@@ -194,7 +194,7 @@ child.setBounceY(Phaser.Math.FloatBetween(0.4, 0.8));
 six = this.physics.add.group({
     key: 'six',
     repeat: 0,
-    setXY: { x: 480, y: 0, stepX: 0 }
+    setXY: { x: 470, y: 0, stepX: 0 }
 });
 
 six.children.iterate(function (child) {
@@ -378,7 +378,7 @@ if (question[level]['Answer'].includes(choice.texture.key))
     }
     score += 10;
     scoreText.setText('Score: ' + score);
-    checkLengthAnswer();
+    checkLengthAnswer(choice.texture.key);
 }
 else
 {
@@ -387,8 +387,9 @@ else
 }
 }
 
-function checkLengthAnswer()
+function checkLengthAnswer(answer)
 {
+    emptyList.push(answer);
     if(question[level]['Answer'].length == 0)
     {
         levelUp();
@@ -453,6 +454,9 @@ function levelUp()
 
     });
 
+    //reset the answer to the original and set empty list to zero
+    question[level]['Answer'] = emptyList;
+    emptyList = [];
     level += 1;
     if (level ==question.length)
     {   
