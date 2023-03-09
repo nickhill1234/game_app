@@ -49,6 +49,7 @@
     <p>Submission failed.</p>
   {:else if submissionStatus === 'success'}
     <p>Submission success! Your answer has been recorded.
+      <br>Follow us on <a href="https://www.instagram.com/moneymathgames/" target=”_blank”>Instagram</a> or <a href="https://twitter.com/moneymathgames" target=”_blank”>Twitter</a> to see if you are a winner (we annouce every Friday).
       <br>To maximize your chances of winning, answer as many of the <a href="https://www.moneymathgames.com/math-treasure-hunt" target=”_blank”>Math Treasure Hunt</a>  questions as possible!
     </p>
   {:else}

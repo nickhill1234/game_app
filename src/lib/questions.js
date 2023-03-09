@@ -89,12 +89,16 @@ export const posts = [
     },
 
     {
-        nft_chest_pic: 'treasure-chest.webp',
+        claimed: true,
+        winner: 'https://opensea.io/_namiiiiii__',
+        winner_name: '_namiiiiii__',
+        open_sea_url: 'https://opensea.io/assets/matic/0x2953399124f0cbb46d2cbacd8a89cf0599974963/45467654088607569510196568564608339478309866350944487180964186463225706971137',
+        nft_chest_pic: '5-is-what-percent-of-20.webp',
         question: '5 is what percent of 2',
         slug:'5-is-what-percent-of-2',
         type_of_question: 'percent',
         meta_description: "5 is what percent of 2? Learn how to calculate 5 as a percent of 2 and earn a money reward if you can solve this question correctly.",
-        page_thumbnail: "2.webp",
+        page_thumbnail: "5-is-what-percent-of-20-claimed.webp",
         answer_tip: "",
         hints_intro: "Here are some hints and tips to help convert solve this percentage question:",
         hint_1_title: "First convert the percent to an equivalent fraction:",
