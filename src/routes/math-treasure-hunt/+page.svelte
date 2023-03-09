@@ -101,18 +101,19 @@
 					<div class="row">
 						<div class="column width-12">
 							<div class="row grid content-grid-4 clearfix">
+
+
+								
 								<div class="column width-10 offset-1 center">
 									<div class="title-container">
-
 										<h3 class="title-medium mb-10"><a id="treasure_hunt">We've hidden an NFT worth $20 in one of the questions below!</a></h3>
 											<h4 class="title-small mb-30">Submit your answers to the math problems below and stand a chance to unlock the hidden NFT.</h4>
 											<p>Simply attach your wallet and submit your answer to each question below and stand a chance to win. 
-											<br>We announce the winners weekly on our <a href="https://www.instagram.com/mathformoneyapp/" target=”_blank”>Instagram</a> every Friday. Follow us to see the unlock each week!
+											<br>We announce the winners weekly on our <a href="https://www.instagram.com/moneymathgames/" target=”_blank”>Instagram</a> or <a href="https://twitter.com/moneymathgames" target=”_blank”>Twitter</a> every Friday. Follow us to see the unlock each week!
 										</p>
 										<a href="https://metamask.io/download/" target=”_blank” class="button large bkg-pink-treasure bkg-hover-theme color-grey-ultralight color-hover-blue-light left mb-20">Download MetaMask To Start</a>
 									</div>
 								</div>
-
 
                             {#each data.posts as post (post.slug)}
 								{#if post.claimed != true}
@@ -145,10 +146,11 @@
 									<div class="title-container">
 
 										<h3 class="title-medium mb-10"><a id="treasure_hunt">See our claimed questions below!</a></h3>
-											<h4 class="title-small mb-30">These NFTs have been awarded and winners received their $20!</h4>
+											<h4 class="title-small mb-30">These NFTs have been awarded and winners received their $20</h4>
 										<a href="https://opensea.io/collection/math-treasure-hunt" target=”_blank” class="button large bkg-pink-treasure bkg-hover-theme color-grey-ultralight color-hover-blue-light left mb-20">View our NFT collection</a>
 									</div>
 								</div>
+								
 								{#each data.posts as post (post.slug)}
 								{#if post.claimed == true}
 								<div class="grid-item grid-sizer">

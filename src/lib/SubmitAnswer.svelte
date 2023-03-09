@@ -48,7 +48,9 @@
   {:else if submissionStatus === 'failed'}
     <p>Submission failed.</p>
   {:else if submissionStatus === 'success'}
-    <p>Submission success! Your answer has been recorded.</p>
+    <p>Submission success! Your answer has been recorded.
+      <br>To maximize your chances of winning, answer as many of the <a href="https://www.moneymathgames.com/math-treasure-hunt" target=”_blank”>Math Treasure Hunt</a>  questions as possible!
+    </p>
   {:else}
     <form on:submit|preventDefault={handleSubmit}>
       <label for="answer">

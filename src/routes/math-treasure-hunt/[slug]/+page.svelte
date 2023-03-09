@@ -11,8 +11,8 @@
 		<meta content="width=device-width,initial-scale=1.0,maximum-scale=5.0" name="viewport">		
 
 		<!-- Primary Meta Tags -->
-		<title>{data.question} | {app_name}</title>
-		<meta name="title" content="{data.question} | {app_name}">
+		<title>{data.question} | $20 for weekly winner!</title>
+		<meta name="title" content="{data.question} | $20 for weekly winner!">
 		<meta name="description" content="{data.question}? {data.meta_description}">
 
 		<link rel="canonical" href="https://www.moneymathgames.com/math-treasure-hunt/{data.slug}" />
@@ -69,7 +69,7 @@
                     <div class="column width-10 offset-1 center">
                         <p class="lead weight-regular mb-70">Put your math word problem skills to solve this {data.type_of_question} question and find the answer to: <br> <b>{data.question}?</b>
                             <br><br> Stand a chance to win a weekly NFT worth $20 if you answer the question correctly! 
-                            <br>Follow us on <a href="https://www.instagram.com/mathformoneyapp/" target=”_blank”>Instagram</a> to see winners each Friday.
+                            <br>Follow us on <a href="https://www.instagram.com/moneymathgames/" target=”_blank”>Instagram</a> or <a href="https://twitter.com/moneymathgames" target=”_blank”>Twitter</a> to see winners each Friday.
                             <br><br>
                             You need to download a <b><a href="https://metamask.io/download/" target=”_blank”>MetaMask Wallet</b>  before you can submit your answer. 
                         </p>

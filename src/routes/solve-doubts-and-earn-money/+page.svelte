@@ -118,7 +118,7 @@
 						<p>
 							Do you enjoy solving math problems and to earn money while you do it? Play this Math Treasure Hunt game where you can solve math questions and stand a chance to win an NFT if you answer the question correctly. The more questions you answer, the greater your chances of winning!  
 							<br><br><b>How does it work?</b>
-							<br> Simply create a MetaMask wallet by following the link below. Link your wallet to the page and then submit your answer to the question. We then give away an NFT worth $20 to a lucky winner each week. Follow us on <a href="https://www.instagram.com/mathformoneyapp/" target=”_blank”>Instagram</a> to see the announcement of winners each week.  
+							<br> Simply create a MetaMask wallet by following the link below. Link your wallet to the page and then submit your answer to the question. We then give away an NFT worth $20 to a lucky winner each week. Follow us on <a href="https://www.instagram.com/moneymathgames/" target=”_blank”>Instagram</a> or <a href="https://twitter.com/moneymathgames" target=”_blank”>Twitter</a> to see the announcement of winners each week.  
 						</p>
 						</div>
 					</div>
