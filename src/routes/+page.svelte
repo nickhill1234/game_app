@@ -104,7 +104,7 @@
 					<div class="feature-image">
 						<div
 						class="feature-image-inner center-on-mobile center"						>
-						<img src="treasure-chest.webp" alt="" />
+						<img src="factors-of-33-treasure.webp" alt="" />
 						</div>
 					</div>
 					</div>
@@ -363,7 +363,7 @@
 													</div>
 													<div class="team-2 team-content-info center">
 														<h4 class="mb-10">???</h4>
-														<h4 class="occupation">Solve one of the math questions above to stand a chance to be one of our winners!</h4>
+														<h4 class="occupation">Won by: <u>This could be you!</u></h4>
 														<p>We award a new NFT worth $20 to a person who answers one of the above questions correctly each week. Answer the questions above to stand a chance to be a winner!</p>
 														<!-- <ul class="social-list list-horizontal">
 															<li><a href="#"><span class="icon-linkedin-with-circle small"></span></a></li>
