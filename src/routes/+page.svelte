@@ -139,7 +139,7 @@
 								<h3 class="title-medium mb-10"><a id="treasure_hunt" href="math-treasure-hunt">Math Treasure Hunt!</a></h3>
 									<h4 class="title-small mb-30">Solve these math problems and stand a chance to win a weekly NFT worth $20!</h4>
 									<p>Simply attach your wallet and submit your answer to each question below and stand a chance to win. A NFT is hidden in one of the questions below.
-									<br>Submit your answer then follow us on <a href="https://www.instagram.com/mathformoneyapp/" target=”_blank”>Instagram</a> or <a href="https://twitter.com/moneymathgames" target=”_blank”>Twitter</a>  to see winners which are announced each Friday.
+									<br>Submit your answer then follow us on <a href="https://www.instagram.com/moneymathgames" target=”_blank”>Instagram</a> or <a href="https://twitter.com/moneymathgames" target=”_blank”>Twitter</a>  to see winners which are announced each Friday.
 								</p>
 
 								<a href="https://metamask.io/download/" target=”_blank” class="button large bkg-pink-treasure bkg-hover-theme color-grey-ultralight color-hover-blue-light left mb-20">Download MetaMask To Start</a>

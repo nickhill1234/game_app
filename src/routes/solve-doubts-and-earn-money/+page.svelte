@@ -138,7 +138,7 @@
 								<h3 class="title-medium mb-10"><a id="treasure_hunt">An NFT worth $20 is hidden in one of the questions below!</a></h3>
 									<h4 class="title-small mb-30">Make sure you submit as many answers as possible to stand a chance of winning the NFT.</h4>
 									<p>Attach your wallet and submit your answer to each question below and stand a chance to win. 
-									<br>We announce the winners weekly on our <a href="https://www.instagram.com/mathformoneyapp/" target=”_blank”>Instagram</a> every Friday. Follow us to see the unlock each week!
+									<br>We announce the winners weekly on our <a href="https://www.instagram.com/moneymathgames" target=”_blank”>Instagram</a> every Friday. Follow us to see the unlock each week!
 								</p>
 
 								<a href="https://metamask.io/download/" target=”_blank” class="button large bkg-pink-treasure bkg-hover-theme color-grey-ultralight color-hover-blue-light left mb-20">Download MetaMask To Start</a>
