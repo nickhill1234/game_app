@@ -10,7 +10,7 @@
                     <h3>Designed by <a href="https://funtownstudio.com/" target=”_blank” class="a">Funtown Studios</a> inc.</h3>
                     <p class="copyright"> &copy; MoneyMathGames.com is a product of Funtown Limited. All Rights Reserved.</p>    
                     <ul class="social-list list-horizontal center mb-5">
-                        <li><a href="https://www.instagram.com/mathformoneyapp/"><span class="icon-instagram-with-circle large"></span></a></li>
+                        <li><a href="https://www.instagram.com/moneymathgames/"><span class="icon-instagram-with-circle large"></span></a></li>
                       </ul>
                 </div>
             </div>

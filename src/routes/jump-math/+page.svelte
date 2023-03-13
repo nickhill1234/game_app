@@ -1,6 +1,6 @@
 <script>
 
-import MathJump from "$lib/MathJump.svelte";
+import SubmitScore from "$lib/SubmitScore.svelte"
 
 </script>
 
@@ -8,9 +8,7 @@ import MathJump from "$lib/MathJump.svelte";
     <h1>Jump Math!</h1>
     <p>Each time you chose the correct answer you earn points. 
         <br>If you select the wrong answer your loose points</p>
-    <MathJump/>
+    <div style="display: contents">
+        <SubmitScore/>
+    </div>
 </div>
-
-
-
-

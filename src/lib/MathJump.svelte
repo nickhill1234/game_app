@@ -1,6 +1,8 @@
 <script>
 import Phaser from 'phaser';
-    
+
+export let final_score = "0";
+
 var config = {
 type: Phaser.AUTO,
 scale: {
@@ -16,7 +18,6 @@ physics: {
         debug: false
     }
 },
-
 scene: {
     preload: preload,
     create: create,
@@ -43,7 +44,7 @@ var gameOver = false;
 var scoreText;
 var emptyList = [];
 var question = [
-    {Question: 'Select multiples of 3',
+    {Question: 'Select the multiples of 3',
     Answer: ["three","six","nine"]},
     {Question: 'What are the prime factors of 10?',
     Answer: ["two","five"]},
@@ -53,14 +54,16 @@ var question = [
     Answer: ["two","three"]},
 ];
 var questionText;
+var button;
+
 
 var game = new Phaser.Game(config);
-
 
 function preload ()
 {
 this.load.image('sky', 'assets/sky.png');
-this.load.image('ground', 'assets/platform.png');
+this.load.image('platform', 'assets/platform.png');
+this.load.image('ground', 'assets/ground.png');
 this.load.image('one', 'assets/1.png');
 this.load.image('two', 'assets/2.png');
 this.load.image('three', 'assets/3.png');
@@ -72,6 +75,7 @@ this.load.image('eight', 'assets/8.png');
 this.load.image('nine', 'assets/9.png');
 this.load.image('bomb', 'assets/bomb.png');
 this.load.spritesheet('dude', 'assets/dude.png', { frameWidth: 32, frameHeight: 48 });
+this.load.image('button', 'assets/button.png', 32, 48);
 }
 
 function create ()
@@ -79,7 +83,19 @@ function create ()
 //  A simple background for our game
 this.add.image(400, 300, 'sky');
 
-//create gem
+// Add a button
+button = this.add.sprite(400, 300, 'button');
+
+// make the button interactive
+button.setInteractive(
+    { useHandCursor: true }
+);
+
+// add an event listener for when the button is clicked
+
+
+button.setVisible(false);
+
 
 
 //  The platforms group contains the ground and the 2 ledges we can jump on
@@ -90,9 +106,9 @@ platforms = this.physics.add.staticGroup();
 platforms.create(400, 568, 'ground').setScale(2).refreshBody();
 
 //  Now let's create some ledges
-platforms.create(600, 400, 'ground');
-platforms.create(50, 250, 'ground');
-platforms.create(750, 220, 'ground');
+platforms.create(500, 400, 'platform');
+platforms.create(100, 250, 'platform');
+platforms.create(750, 225, 'platform');
 
 // The player and its settings
 player = this.physics.add.sprite(100, 450, 'dude');
@@ -246,8 +262,9 @@ child.setBounceY(Phaser.Math.FloatBetween(0.4, 0.8));
 bombs = this.physics.add.group();
 
 //  The score
-scoreText = this.add.text(16, 16, 'score: 0', { fontSize: '32px', fill: '#000' });
-questionText = this.add.text(125, 75, question[level]['Question'], { fontSize: '32px', fill: '#000' });
+scoreText = this.add.text(16, 16, 'score: 0', { fontFamily: '"ruddy", sans-serif', fontSize: '32px', fill: '#F12177', fontWeight: 'bold' });
+questionText = this.add.text(200, 150, question[level]['Question'], { fontFamily: '"ruddy", sans-serif', fontSize: '32px', fill: '#F12177', fontWeight: 'bold' });
+questionText.setOrigin(0, 0.5);
 
 //  Collide the player and the stars with the platforms
 this.physics.add.collider(player, platforms);
@@ -314,32 +331,33 @@ if (cursors.up.isDown && player.body.touching.down)
 
 function collectOne (player, one)
 {
-one.disableBody(true, true);
-checkAnswer(one)
+    one.disableBody(true, true);
+    checkAnswer(one)
 }
 
 function collectTwo (player, two)
 {
-two.disableBody(true, true);
-checkAnswer(two)
+    two.disableBody(true, true);
+    checkAnswer(two)
 }
 
 function collectThree (player, three)
 {
-three.disableBody(true, true);
-checkAnswer(three)
+    three.disableBody(true, true);
+    checkAnswer(three)
 }
 
 function collectFour (player, four)
 {
-four.disableBody(true, true);
-checkAnswer(four)
+    four.disableBody(true, true);
+    checkAnswer(four)
 }
 
 function collectFive (player, five)
 {
     five.disableBody(true, true);
     checkAnswer(five)
+
 }
 
 function collectSix (player, six)
@@ -482,6 +500,7 @@ function levelUp()
 
 function hitBomb (player, bomb)
 {
+
 this.physics.pause();
 
 player.setTint(0xff0000);
@@ -489,5 +508,30 @@ player.setTint(0xff0000);
 player.anims.play('turn');
 
 gameOver = true;
+final_score = score;
+
+questionText.setText('Your final score is: '+ score);
+
+button.setVisible(true);
+button.on('pointerdown', function () {
+    // restart the scene
+    this.scene.restart();
+    gameOver = false;
+    score = 0;
+    level = 0;
+    question = [
+    {Question: 'Select the multiples of 3',
+    Answer: ["three","six","nine"]},
+    {Question: 'What are the prime factors of 10?',
+    Answer: ["two","five"]},
+    {Question: 'Select multiples of 2',
+    Answer: ["two","four","six","eight"]},
+    {Question: 'What are the prime factors of 12?',
+    Answer: ["two","three"]},
+];
+
+  }, this);
+
+
 }
 </script>
