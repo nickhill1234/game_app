@@ -1,9 +1,18 @@
 <script>
   import {ethers} from 'ethers';
+	import TwitterShare from '$lib/TwitterShare.svelte';
 
   export let web3Props = {provider: null, signer: null, account: null, chainId: null};
+  
+  export let page_url;
+  export let single_question;
+
+  let localUrl = page_url;
+  let localQuestion = single_question;
 
   let time = new Date();
+  let answer = '';
+
 
   let submissionStatus = ''
   const handleSubmit = async data => {
@@ -49,18 +58,23 @@
     <p>Submission failed.</p>
   {:else if submissionStatus === 'success'}
     <p>Submission success! Your answer has been recorded.
-      <br>Follow us on <a href="https://www.instagram.com/moneymathgames/" target=”_blank”>Instagram</a> or <a href="https://twitter.com/moneymathgames" target=”_blank”>Twitter</a> to see if you are a winner (we annouce every Friday).
-      <br>To maximize your chances of winning, answer as many of the <a href="https://www.moneymathgames.com/math-treasure-hunt" target=”_blank”>Math Treasure Hunt</a>  questions as possible!
+      <br>Solve the remaining <a href="https://www.moneymathgames.com/math-treasure-hunt" target=”_blank”>Math Treasure Hunt</a> questions to find the mystery $20 NFT!
     </p>
+    <TwitterShare
+    text="I solved {localQuestion} to win a $20 NFT at "
+    url="https://www.moneymathgames.com/math-treasure-hunt/{localUrl}   "
+    hashtags="nft"
+  />
   {:else}
     <form on:submit|preventDefault={handleSubmit}>
       <label for="answer">
         <span>Enter your answer in the block below</span>
       </label>
-        <input
+        <input 
           name="answer"
           aria-label="name"
           placeholder="Type your answer"
+          bind:value = {answer}
           required
         />
       <label for="name">
@@ -72,14 +86,14 @@
             placeholder=""
             value={web3Props.account}
           />
-        <label for="email">
-            <span>(Optional) Enter your email if you want to receive a notification if you win! </span>
+        <label for="insta">
+            <span>(Optional) Enter your Instagram handle so we can message you if you win! 
+              <br>Make sure you follow our Instagram  <a href="https://www.instagram.com/moneymathgames/" target=”_blank”>Math Money Games</a> to receive the DM.</span>
           </label>
           <input
-            type="email"
-            name="email"
-            aria-label="email"
-            placeholder="example@gmail.com"
+            name="insta"
+            aria-label="insta"
+            placeholder="@example_handle"
           />
         <label for="time">
           </label>

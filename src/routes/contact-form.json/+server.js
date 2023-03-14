@@ -7,7 +7,7 @@ export const POST = async ({ request }) => {
   const name = fd.get('name')
   const answer = fd.get('answer')
   const time = fd.get('time')
-  const email = fd.get('email')
+  const insta = fd.get('insta')
 
 
   const AIRTABLE_URL = `https://api.airtable.com/v0/${AIRTABLE_BASE_ID}/submissions`
@@ -19,7 +19,7 @@ export const POST = async ({ request }) => {
           name,
           answer,
           time,
-          email,
+          insta,
         },
       },
     ],

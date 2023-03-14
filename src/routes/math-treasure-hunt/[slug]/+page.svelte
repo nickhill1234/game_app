@@ -4,6 +4,9 @@
     import SubmitAnswer from '$lib/SubmitAnswer.svelte';
 
     let app_name = "Money Math Games"
+    let my_url = data.slug;
+    let single_question = data.question;
+    
 </script>
 
 
@@ -75,7 +78,7 @@
                         </p>
                     </div>
                     <div style="display: contents">
-                        <SubmitAnswer/>
+                        <SubmitAnswer page_url={my_url} single_question={single_question}/>
                     </div>
                     <div class="column width-12" style="padding-top: 50px;">
                         <hr class="mb-70">
@@ -129,4 +132,6 @@
         <Footer/>
     </div>
 </div>
+
+
 
